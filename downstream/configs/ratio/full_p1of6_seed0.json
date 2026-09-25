@@ -214,7 +214,7 @@
     "gradient_accumulation_steps": 1,
     "lr_drop_factor": 0.1,
     "lr_drop_update": 4500,
-    "protocol_name": "formal_clean_only_v1",
+    "protocol_name": "rt_matched_sampling",
     "require_full_train_batches": true,
     "sampler_seed": 0,
     "sampling": "permutation_bernoulli_thinning",

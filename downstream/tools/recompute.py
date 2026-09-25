@@ -36,7 +36,7 @@ def responses(assets,out):
   else:
    pooled=z['pooled' if region=='context' else 'object_pooled'];delta=pooled[:,1:]-pooled[:,0:1]
   u=np.asarray([[v/(float(np.linalg.norm(v))+1e-12) for v in source] for source in delta],dtype=np.float32)
-  # Preserve the recorded FP32 arithmetic and mean reduction.
+  # Compute per-source dot products and the mean in FP32.
   similarities=np.stack([np.stack([np.sum(u[:,a]*u[:,b],axis=1) for b in range(5)],axis=1) for a in range(5)],axis=1)
   S=np.asarray([[float(similarities[:,a,b].mean()) for b in range(5)] for a in range(5)]);checks['rt_'+region+'_cache_max_error']=float(np.max(np.abs(similarities-z['per_source_similarity_'+key]))) if 'per_source_similarity_'+key in z else None
   measured=S.astype(float);selection=measured.copy();np.fill_diagonal(selection,1)

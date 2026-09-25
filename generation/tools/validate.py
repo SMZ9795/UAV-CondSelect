@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CPU validation. Model-call tests use a stub, never pretrained weights."""
+"""CPU checks for input preparation, compositing and output records."""
 import argparse
 import ast
 import contextlib
@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest.mock import patch
 import numpy as np
-from PIL import Image, ImageChops, ImageStat
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -42,8 +42,6 @@ def validate():
         'editor_input_jpeg': jpeg_bytes(editor_input) == (ref / 'editor_input.jpg').read_bytes(),
     }
     assert all(reference_checks.values()), reference_checks
-    reconstructed = compose_final(source, Image.open(ref / 'background.jpg').convert('RGB'), soft)
-    difference = ImageStat.Stat(ImageChops.difference(reconstructed, Image.open(ref / 'final.jpg').convert('RGB'))).mean
     # Independent integer oracle tests real orchestration + real editor.generate through a fake pipe.
     yy, xx = np.indices((source.height, source.width))
     background = Image.fromarray(np.stack([(xx * 37 + yy * 19) % 256,
@@ -122,8 +120,6 @@ def validate():
                 'lossy_background_reload_regression_guard': 'passed',
                 'annotations_and_manifest_hashes': 'passed', 'existing_output_refusal': 'passed'},
             'source_mask_dilation_check': 'passed',
-            'saved_background_reconstruction': {'mean_absolute_rgb_difference': difference,
-                'byte_identity_claimed': False, 'reason': 'Saved JPEG background is lossy; generation fusion uses the in-memory background.'},
             'examples': __import__('check_examples').check_examples()}
 
 

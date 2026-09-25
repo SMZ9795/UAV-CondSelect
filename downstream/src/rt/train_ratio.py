@@ -266,7 +266,7 @@ def main() -> None:
     accumulation = int(protocol["gradient_accumulation_steps"])
     effective_batch = physical_batch * accumulation
     if accumulation != 1:
-        raise RuntimeError("runner supports accumulation but this frozen probe selected accumulation=1")
+        raise RuntimeError("This training protocol requires gradient_accumulation_steps=1")
     total_updates = int(protocol["total_optimizer_updates"])
     validation_interval = int(protocol["validation_interval_updates"])
     warmup = int(protocol["warmup_updates"])

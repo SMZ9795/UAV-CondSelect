@@ -1,4 +1,4 @@
-"""Standalone wrapper around the recorded YOLO Engine."""
+"""Train YOLO11m to a fixed successful-update budget."""
 from common import *
 
 def main():
