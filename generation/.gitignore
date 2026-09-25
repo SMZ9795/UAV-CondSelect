@@ -1,0 +1,36 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local datasets and generated outputs
+/data/
+/models/
+/checkpoints/
+/outputs/
+/results/
+/runs/
+/logs/
+/tmp/
+/.cache/
+/private_audit/
+*.log
+
+# Delivery archives
+*.tar.gz
+*.zip

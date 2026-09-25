@@ -1,0 +1,22 @@
+{
+  "source_id": "A_0106837",
+  "condition": "fog",
+  "source": "input/source.jpg",
+  "annotation": "reference/final.xml",
+  "working_source": "reference/working_source.jpg",
+  "hard_mask": "reference/hard.png",
+  "soft_mask": "reference/soft.png",
+  "editor_input": "reference/editor_input.jpg",
+  "background": "reference/background.jpg",
+  "final_image": "reference/final.jpg",
+  "background_storage": "JPEG; fusion used pre-encoding in-memory background",
+  "sha256": {
+    "working_source.jpg": "3f5ec05247919eaa3023ddd62a5fca29e2c270681ed8640bcd3aa3a9851a1544",
+    "hard.png": "4a1fce61b7e7959944fdcf1dae55928f1e1b1365cb0f49262a46047cdd6a67e2",
+    "soft.png": "692a3c78d6d8d9df17db859ff9c644f5bef5bce169fb014b75499929310c715a",
+    "editor_input.jpg": "7f0d230921e0f01bf65d1a7e6aebb2a70ebc33956a72473ed5130ad293d79601",
+    "background.jpg": "56a0d501ef984a63f28b56024f5de7ff0ebe9f808ef9f668c3db92e9dfef25cb",
+    "final.jpg": "6d3641281836dedc5bc53a74817bce6d48b75f7e15e67946e77af5e30dbf6061",
+    "final.xml": "2c1602cdc34c7b83e064f6f82634e79190759812381e017396a6d95896fb78ff"
+  }
+}

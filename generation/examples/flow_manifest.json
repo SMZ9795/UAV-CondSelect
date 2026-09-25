@@ -1,0 +1,102 @@
+{
+  "source_id": "A_0106837",
+  "condition": "fog",
+  "path_base": ".",
+  "files": {
+    "source_image": {
+      "path": "input/source.jpg",
+      "bytes": 1001615,
+      "sha256": "6e5cd13f0143b9f20e0062f91a52f2d85f4486750ac28eff6cf5b4ee97184778",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB"
+    },
+    "source_annotation": {
+      "path": "input/source.xml",
+      "bytes": 493,
+      "sha256": "bbdfe0678c00c8d513b7589052c8d2f601242ad489df2ba71d68b28a5ab70cd5"
+    },
+    "core_mask": {
+      "path": "input/core.png",
+      "bytes": 9821,
+      "sha256": "728028f3df86cb4ec6f05575fc77307517a5225ac69d744d89268715100805bf",
+      "width": 3840,
+      "height": 2160,
+      "mode": "L"
+    },
+    "protection_mask": {
+      "path": "input/protection.png",
+      "bytes": 9773,
+      "sha256": "d3d430f2a7b62fc656aedf71cfe9c9c21d4bb68fe0e30c7874de76f887fef485",
+      "width": 3840,
+      "height": 2160,
+      "mode": "L"
+    },
+    "working_source": {
+      "path": "reference/working_source.jpg",
+      "bytes": 107788,
+      "sha256": "3f5ec05247919eaa3023ddd62a5fca29e2c270681ed8640bcd3aa3a9851a1544",
+      "width": 1024,
+      "height": 576,
+      "mode": "RGB"
+    },
+    "hard_mask": {
+      "path": "reference/hard.png",
+      "bytes": 1122,
+      "sha256": "4a1fce61b7e7959944fdcf1dae55928f1e1b1365cb0f49262a46047cdd6a67e2",
+      "width": 1024,
+      "height": 576,
+      "mode": "L"
+    },
+    "soft_mask": {
+      "path": "reference/soft.png",
+      "bytes": 5971,
+      "sha256": "692a3c78d6d8d9df17db859ff9c644f5bef5bce169fb014b75499929310c715a",
+      "width": 1024,
+      "height": 576,
+      "mode": "L"
+    },
+    "editor_input": {
+      "path": "reference/editor_input.jpg",
+      "bytes": 107569,
+      "sha256": "7f0d230921e0f01bf65d1a7e6aebb2a70ebc33956a72473ed5130ad293d79601",
+      "width": 1024,
+      "height": 576,
+      "mode": "RGB"
+    },
+    "background": {
+      "path": "reference/background.jpg",
+      "bytes": 76852,
+      "sha256": "56a0d501ef984a63f28b56024f5de7ff0ebe9f808ef9f668c3db92e9dfef25cb",
+      "width": 1024,
+      "height": 576,
+      "mode": "RGB"
+    },
+    "final_image": {
+      "path": "reference/final.jpg",
+      "bytes": 77851,
+      "sha256": "6d3641281836dedc5bc53a74817bce6d48b75f7e15e67946e77af5e30dbf6061",
+      "width": 1024,
+      "height": 576,
+      "mode": "RGB"
+    },
+    "final_annotation": {
+      "path": "reference/final.xml",
+      "bytes": 532,
+      "sha256": "2c1602cdc34c7b83e064f6f82634e79190759812381e017396a6d95896fb78ff"
+    }
+  },
+  "config": {
+    "path": "../configs/generation.json",
+    "bytes": 308,
+    "sha256": "083c3c4717259ffb1a4fd4615698a939d61bc8dbce175b5cb2712b600188c1e8"
+  },
+  "prompt": {
+    "path": "../prompts/background.json",
+    "bytes": 5150,
+    "sha256": "878548be757a0669aab1c067831d843ce0957a6294b05d325282f35c2337848d",
+    "condition_key": "fog",
+    "text_sha256": "9565c9d063a374952a38839a19d649edbe46257a2138381f5a48ac4cdd2f6f05"
+  },
+  "fusion": "RGB source and generated background are composed in memory using the L soft mask. The stored background JPEG is a lossy diagnostic copy."
+}

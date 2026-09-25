@@ -1,0 +1,19 @@
+{
+  "max_side": 1024,
+  "mask_blur_radius": 28,
+  "source_blur_radius": 60,
+  "mask_threshold": 127,
+  "extra_dilate_px": 0,
+  "steps": 28,
+  "guidance_scale": 3.0,
+  "seed": 43,
+  "dtype": "bf16",
+  "cpu_offload": true,
+  "conditions": [
+    "rain",
+    "snow",
+    "fog",
+    "dust",
+    "low_light"
+  ]
+}

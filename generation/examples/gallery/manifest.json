@@ -1,0 +1,193 @@
+{
+  "path_base": ".",
+  "examples": [
+    {
+      "source_id": "F_0102954",
+      "condition": "rain",
+      "files": {
+        "source_image": {
+          "path": "rain/source.jpg",
+          "bytes": 1160282,
+          "sha256": "7bf3b48707a48572c2a110a1123ad76f723a0261eb4f811b46178411e5caf26e",
+          "width": 3840,
+          "height": 2160,
+          "mode": "RGB"
+        },
+        "source_annotation": {
+          "path": "rain/source.xml",
+          "bytes": 531,
+          "sha256": "f3d53e7835bbe230a82538d17c63e9c9747a94a15e90bd3abef52177d8212d1d"
+        },
+        "final_image": {
+          "path": "rain/final.jpg",
+          "bytes": 168054,
+          "sha256": "60adc722b6313c3f718b94e5e10875021644dfd049f2797355c006f58103b07a",
+          "width": 1024,
+          "height": 576,
+          "mode": "RGB"
+        },
+        "final_annotation": {
+          "path": "rain/final.xml",
+          "bytes": 525,
+          "sha256": "3ad8f736a962060826d6e31ac9db384e87f45b5ee57472c7d7517c787bbdd857"
+        }
+      },
+      "config": {
+        "path": "../../configs/generation.json",
+        "bytes": 308,
+        "sha256": "083c3c4717259ffb1a4fd4615698a939d61bc8dbce175b5cb2712b600188c1e8"
+      },
+      "prompt": {
+        "path": "../../prompts/background.json",
+        "bytes": 5150,
+        "sha256": "878548be757a0669aab1c067831d843ce0957a6294b05d325282f35c2337848d",
+        "condition_key": "rain",
+        "text_sha256": "98bf52c70881a0fade6ccda26c84c3a6d81d8021390d7d0605e965561df0e62a"
+      },
+      "annotation_coordinates": "pixel xyxy; direct dimension scaling and round; no origin shift",
+      "example_type": "selected qualitative example",
+      "selection_note": "Visible rain streaks and reduced distant contrast; road, crane and mountain geometry remain recognizable."
+    },
+    {
+      "source_id": "A_0106838",
+      "condition": "snow",
+      "files": {
+        "source_image": {
+          "path": "snow/source.jpg",
+          "bytes": 1026754,
+          "sha256": "8a3b7e58e324cb9cbdce31e1347d50422b593c6428b695d4211e0ab15059224e",
+          "width": 3840,
+          "height": 2160,
+          "mode": "RGB"
+        },
+        "source_annotation": {
+          "path": "snow/source.xml",
+          "bytes": 533,
+          "sha256": "f8b2331dc6542881967c3887600c0169761f5b57ebec0fa097d10a5f498b3f6d"
+        },
+        "final_image": {
+          "path": "snow/final.jpg",
+          "bytes": 206868,
+          "sha256": "7002a9be2b5f2eb357db82e6f163bd7ba37164f83f9787150e6688f24c0d9749",
+          "width": 1024,
+          "height": 576,
+          "mode": "RGB"
+        },
+        "final_annotation": {
+          "path": "snow/final.xml",
+          "bytes": 527,
+          "sha256": "c96cc8ee73d5c81264a9d96b14e163f34009bf39bc0b1bc105654bde9d0f4f46"
+        }
+      },
+      "config": {
+        "path": "../../configs/generation.json",
+        "bytes": 308,
+        "sha256": "083c3c4717259ffb1a4fd4615698a939d61bc8dbce175b5cb2712b600188c1e8"
+      },
+      "prompt": {
+        "path": "../../prompts/background.json",
+        "bytes": 5150,
+        "sha256": "878548be757a0669aab1c067831d843ce0957a6294b05d325282f35c2337848d",
+        "condition_key": "snow",
+        "text_sha256": "1742ef7f3df63b2aafd015abec5ab048673d058c9fb231f7aba18df7ca5be257"
+      },
+      "annotation_coordinates": "pixel xyxy; direct dimension scaling and round; no origin shift",
+      "example_type": "selected qualitative example",
+      "selection_note": "Distinct snowfall and snow-covered vegetation; the tilted UAV silhouette remains recognizable."
+    },
+    {
+      "source_id": "A_0106837",
+      "condition": "fog",
+      "files": {
+        "source_image": {
+          "path": "../input/source.jpg",
+          "bytes": 1001615,
+          "sha256": "6e5cd13f0143b9f20e0062f91a52f2d85f4486750ac28eff6cf5b4ee97184778",
+          "width": 3840,
+          "height": 2160,
+          "mode": "RGB"
+        },
+        "source_annotation": {
+          "path": "../input/source.xml",
+          "bytes": 493,
+          "sha256": "bbdfe0678c00c8d513b7589052c8d2f601242ad489df2ba71d68b28a5ab70cd5"
+        },
+        "final_image": {
+          "path": "../reference/final.jpg",
+          "bytes": 77851,
+          "sha256": "6d3641281836dedc5bc53a74817bce6d48b75f7e15e67946e77af5e30dbf6061",
+          "width": 1024,
+          "height": 576,
+          "mode": "RGB"
+        },
+        "final_annotation": {
+          "path": "../reference/final.xml",
+          "bytes": 532,
+          "sha256": "2c1602cdc34c7b83e064f6f82634e79190759812381e017396a6d95896fb78ff"
+        }
+      },
+      "config": {
+        "path": "../../configs/generation.json",
+        "bytes": 308,
+        "sha256": "083c3c4717259ffb1a4fd4615698a939d61bc8dbce175b5cb2712b600188c1e8"
+      },
+      "prompt": {
+        "path": "../../prompts/background.json",
+        "bytes": 5150,
+        "sha256": "878548be757a0669aab1c067831d843ce0957a6294b05d325282f35c2337848d",
+        "condition_key": "fog",
+        "text_sha256": "9565c9d063a374952a38839a19d649edbe46257a2138381f5a48ac4cdd2f6f05"
+      },
+      "annotation_coordinates": "pixel xyxy; direct dimension scaling and round; no origin shift",
+      "example_type": "selected qualitative example",
+      "selection_note": "Layered haze over distant buildings and hills while foreground vegetation retains texture."
+    },
+    {
+      "source_id": "H_0103862",
+      "condition": "dust",
+      "files": {
+        "source_image": {
+          "path": "dust/source.jpg",
+          "bytes": 1155001,
+          "sha256": "b32d9eb940561b4d0b902b37a305aa424130057abc2b4d62c3896867f9b300d8",
+          "width": 3840,
+          "height": 2160,
+          "mode": "RGB"
+        },
+        "source_annotation": {
+          "path": "dust/source.xml",
+          "bytes": 533,
+          "sha256": "2c8934915461534fc8234881215252264690b7eb7046c8b3260a59c4459b87ec"
+        },
+        "final_image": {
+          "path": "dust/final.jpg",
+          "bytes": 89977,
+          "sha256": "56b2ea0b4f8f27b4dea387792b8b8361c67da06779ecc6f1f53f2db06aae63cc",
+          "width": 1024,
+          "height": 576,
+          "mode": "RGB"
+        },
+        "final_annotation": {
+          "path": "dust/final.xml",
+          "bytes": 527,
+          "sha256": "4c26013983f851fe23b23f41358a52c3498ce0ecf87e9a0776beb92a6265d84f"
+        }
+      },
+      "config": {
+        "path": "../../configs/generation.json",
+        "bytes": 308,
+        "sha256": "083c3c4717259ffb1a4fd4615698a939d61bc8dbce175b5cb2712b600188c1e8"
+      },
+      "prompt": {
+        "path": "../../prompts/background.json",
+        "bytes": 5150,
+        "sha256": "878548be757a0669aab1c067831d843ce0957a6294b05d325282f35c2337848d",
+        "condition_key": "dust",
+        "text_sha256": "5aefd6c204402d330f3d20001157b475594392e474a0e4ef857817ffd36f6af5"
+      },
+      "annotation_coordinates": "pixel xyxy; direct dimension scaling and round; no origin shift",
+      "example_type": "selected qualitative example",
+      "selection_note": "Amber suspended dust with readable buildings, road and hills rather than a uniform color field."
+    }
+  ]
+}
