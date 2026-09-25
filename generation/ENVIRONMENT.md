@@ -1,6 +1,12 @@
 # Environment and models
 
-Use Python 3.12 and a CUDA GPU with BF16 support. Package versions are recorded in [environment.json](environment.json); source revisions are pinned in [requirements.txt](requirements.txt).
+Use Python 3.12. Package versions are recorded in [environment.json](environment.json); source revisions are pinned in [requirements.txt](requirements.txt).
+
+## Hardware
+
+Generation GPU: 1 NVIDIA A800 (80 GB VRAM). FLUX.2-dev uses BF16 and model CPU offload.
+
+## Installation
 
 ```bash
 python -m venv .venv
@@ -9,7 +15,7 @@ python -m pip install torch==2.5.1 torchvision==0.20.1 --index-url https://downl
 python -m pip install -r requirements.txt
 ```
 
-The CPU checks use Pillow, NumPy, and OpenCV. Generation uses FLUX.2-dev with model CPU offload.
+The CPU checks use Pillow, NumPy, and OpenCV.
 
 ## FLUX.2-dev
 

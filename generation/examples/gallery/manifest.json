@@ -100,7 +100,7 @@
       "condition": "fog",
       "files": {
         "source_image": {
-          "path": "../input/source.jpg",
+          "path": "fog/source.jpg",
           "bytes": 1001615,
           "sha256": "6e5cd13f0143b9f20e0062f91a52f2d85f4486750ac28eff6cf5b4ee97184778",
           "width": 3840,
@@ -108,12 +108,12 @@
           "mode": "RGB"
         },
         "source_annotation": {
-          "path": "../input/source.xml",
+          "path": "fog/source.xml",
           "bytes": 493,
           "sha256": "bbdfe0678c00c8d513b7589052c8d2f601242ad489df2ba71d68b28a5ab70cd5"
         },
         "final_image": {
-          "path": "../reference/final.jpg",
+          "path": "fog/final.jpg",
           "bytes": 77851,
           "sha256": "6d3641281836dedc5bc53a74817bce6d48b75f7e15e67946e77af5e30dbf6061",
           "width": 1024,
@@ -121,7 +121,7 @@
           "mode": "RGB"
         },
         "final_annotation": {
-          "path": "../reference/final.xml",
+          "path": "fog/final.xml",
           "bytes": 532,
           "sha256": "2c1602cdc34c7b83e064f6f82634e79190759812381e017396a6d95896fb78ff"
         }
