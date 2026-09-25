@@ -1,8 +1,10 @@
 """Recompute response matrices, selection, AP aggregates and transfer statistics on CPU."""
 from pathlib import Path
-import argparse,csv,json,itertools,collections
+import argparse,csv,json,itertools,collections,sys
 import numpy as np
 from scipy.stats import pearsonr,spearmanr
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from src.selection import select
 T=['rain','snow','fog','dust','low_light']
 def normname(s):return s.replace('dim_low_light','low_light')
 def read(p):return json.loads(Path(p).read_text())
@@ -12,21 +14,6 @@ def table(p,rows):
  p=Path(p);p.parent.mkdir(parents=True,exist_ok=True)
  with p.open('w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
-def objective(S,A,lam):
- F=float(S[:,A].max(axis=1).sum());R=float(sum(S[a,b] for a,b in itertools.combinations(A,2)))
- return {'F':F,'R':R,'J':F-lam*R}
-def select(S,lam):
- A=list(range(5));steps=[];deleted=[]
- while len(A)>1:
-  before=objective(S,A,lam);candidates=[]
-  for a in A:
-   after=objective(S,[i for i in A if i!=a],lam)
-   candidates.append({'condition':T[a],'index':a,**after,'gain':after['J']-before['J']})
-  best=max(candidates,key=lambda x:x['gain'])
-  steps.append({'retained':[T[a] for a in A],**before,'candidates':candidates,'deleted':best['condition'] if best['gain']>0 else None})
-  if best['gain']<=0:break
-  A.remove(best['index']);deleted.append(best['condition'])
- return {'lambda':lam,'steps':steps,'deleted':deleted,'retained':[T[a] for a in A],'final':objective(S,A,lam),'stop':'singleton' if len(A)==1 else 'no strictly positive deletion gain'}
 def responses(assets,out):
  matrices={};checks={}
  z=np.load(assets/'responses/rt.npz');assert [normname(x) for x in (z['weather'] if 'weather' in z else z['condition'][1:])]==T and len(set(z['source_id']))==102
