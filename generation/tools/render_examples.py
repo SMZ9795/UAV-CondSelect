@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render example montages using resizing and layout only."""
+"""Render the generation workflow from its example files."""
 import json
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
@@ -33,18 +33,6 @@ def main():
         panel(canvas, (GAP+(i%3)*(W+GAP), 40+GAP+(i//3)*(H+LABEL+GAP)),
               ex/flow['files'][key]['path'], label, key in ('core_mask', 'protection_mask', 'hard_mask'))
     canvas.save(ex/'workflow.png')
-    gallery = ex/'gallery'
-    rows = json.loads((gallery/'manifest.json').read_text())['examples']
-    row_height = H+LABEL+GAP+30
-    canvas = Image.new('RGB', (2*W+3*GAP, len(rows)*row_height+GAP+40), '#f2f4f7')
-    draw = ImageDraw.Draw(canvas)
-    draw.text((GAP, 12), 'Selected qualitative examples', fill='#172638', font=FONT)
-    for i, row in enumerate(rows):
-        y = 40+GAP+i*row_height
-        draw.text((GAP, y), row['condition'].replace('_',' ').capitalize()+' | '+row['source_id'], fill='#172638', font=FONT)
-        for j, (key, label) in enumerate([('source_image','Source'),('final_image','Final')]):
-            panel(canvas, (GAP+j*(W+GAP), y+30), gallery/row['files'][key]['path'], label)
-    canvas.save(gallery/'overview.png')
 
 
 if __name__ == '__main__':

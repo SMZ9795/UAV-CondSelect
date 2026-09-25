@@ -1,23 +1,40 @@
-# 数据、标注与掩膜
+# Data and processing
 
-建议目录：
+## Input manifest
 
-```text
-data/
-  images/<source_id>.jpg
-  annotations/<source_id>.xml
-  masks/<source_id>_protection.png
-  sources.jsonl
+Use one JSON object per line, with paths relative to the manifest directory:
+
+```json
+{"source_id":"A_0106837","image":"images/A_0106837.jpg","annotation":"annotations/A_0106837.xml","protection_mask":"masks/A_0106837_protection.png"}
 ```
 
-sources.jsonl 中分别引用 images、annotations 和 masks 的相对路径。source_id 独立于文件名，避免不同场景同名文件冲突。不要从 XML 的 filename/path 字段寻找输入；清单配对具有优先级。输出 XML 会写与最终图对应的相对路径。
+Each `source_id` must be unique and contain letters, digits, underscores, or hyphens. For mask preparation, supply `source_id`, `image`, and `annotation`. Generation also requires a `protection_mask` matching the source image dimensions. The optional `core_mask` field records the target mask.
 
-输入是原图坐标系的 XML，不能给原图搭配已经缩放的坐标但仍宣称原尺寸。转换按 XML 实际声明宽高执行，没有额外的 VOC 一基到零基变换。生成掩膜时会将 XML 坐标映射到实际源图尺寸；最终标注映射到最终尺寸。源图处理是全幅缩放，没有裁剪、填充或旋转。标注用于目标提示和输出几何，不声称生成模型一定保持所有物体外观。
+Annotations use VOC-style XML with image dimensions and pixel XYXY boxes. File pairing follows the manifest. Coordinates are read with `int(float(value))`, scaled independently in x and y from the XML grid to the output grid, and rounded to integers. Boxes must have positive area and lie within the declared image dimensions.
 
-SAM 准备默认：vit_b，context crop 扩展比例0.8、upscale4、max_crop_side1024，实际scale下限1；裁图INTER_CUBIC，box同步乘scale。采用box-only、多候选输出，用 score + 0.3*inside_ratio − penalty 选一个；area_ratio<0.08、>0.95或inside_ratio<0.80分别罚0.5。选中二值候选用INTER_NEAREST还原至crop后放回全图，8连通域面积小于5的碎块移除。配置constrain_to_bbox默认false；开启时先按框限制再清理连通域。保护掩膜由core椭圆9×9膨胀1次。没有重新对天气条件做分割。
+## Masks
 
-examples/input包含一个源图、XML、core和protection；examples/reference是同源fog的工作网格输入、掩膜、背景及final。reference_manifest.json中的路径相对examples解析。该final确为源RGB与背景通过soft mask的融合结果；背景保存副本是JPEG，而实际融合使用的是保存前内存背景。示例XML只清理路径元信息并提供对应尺寸标注。
+[configs/sam.json](configs/sam.json) defines the SAM settings. The default `vit_b` model uses the enclosing box of all annotated targets, a context crop expanded by 0.8, upscaling by 4, and a maximum crop side of 1024. Candidate selection combines the SAM score, the fraction inside the box, and area penalties. Connected components smaller than five pixels are removed to form the core mask.
 
-core是清理后的目标掩膜，不应当称为网络原始候选；prepare-masks另存raw_selected。已存保护掩膜可以直接用于确定性输入准备。新制SAM掩膜依赖指定权重和显式配置，不同环境下的模型数值差异可能影响掩膜边界。
+The protection mask is the core dilated once with a 9 × 9 elliptical kernel. It is shared across conditions for each source image. Mask preparation saves the selected candidate, core, protection mask, and selection metadata.
 
-完整流程文件对应关系见 [examples/flow_manifest.json](examples/flow_manifest.json)，雨、雪、雾、尘展示见 [examples/gallery/manifest.json](examples/gallery/manifest.json)。各清单的路径相对于清单所在目录。展示标注与相应图像尺寸一致；源标注保留坐标，仅规范化文件路径元信息。
+## Generation
+
+[configs/generation.json](configs/generation.json) defines the processing settings:
+
+| Step | Default |
+| --- | --- |
+| Working image | Longest side capped at 1024; dimensions rounded down to multiples of 16; LANCZOS resizing |
+| Hard mask | Protection mask resized with NEAREST, then thresholded at 127 |
+| Soft mask | Pillow GaussianBlur, radius 28 |
+| Editor input | Source blurred at radius 60 in the region weighted by the soft mask |
+| Background | FLUX.2-dev, BF16, CPU offload, 28 steps, guidance 3.0, seed 43 per image-condition pair |
+| Final | Source and generated background composited in memory with the soft mask |
+
+Fusion uses 8-bit RGB values and the L-mode soft mask. The background is resized to the working grid with LANCZOS when needed. PNG sources produce PNG outputs; JPEG outputs use quality 95. Prompt text and UTF-8 SHA-256 values are stored in [prompts/background.json](prompts/background.json); update both when editing a prompt.
+
+## Output records
+
+Each output record identifies its source, condition, settings, annotations, and image files. Paths are relative to the output directory, and files include SHA-256 checksums. The final image is recorded as `files.final_image`.
+
+Example files are indexed in [examples/README.md](examples/README.md). The [flow manifest](examples/flow_manifest.json) describes the complete fog example; the [gallery manifest](examples/gallery/manifest.json) pairs each condition's source and final image.

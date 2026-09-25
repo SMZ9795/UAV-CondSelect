@@ -98,5 +98,5 @@
     "condition_key": "fog",
     "text_sha256": "9565c9d063a374952a38839a19d649edbe46257a2138381f5a48ac4cdd2f6f05"
   },
-  "fusion": "RGB source and generated background are composed in memory using the L soft mask. The stored background JPEG is a lossy diagnostic copy."
+  "fusion": "RGB source and generated background are composed in memory using the L soft mask."
 }

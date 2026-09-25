@@ -68,9 +68,8 @@ def check_examples():
         assert path.is_file(), path
         if path.name in reference['sha256']:
             assert hashlib.sha256(path.read_bytes()).hexdigest() == reference['sha256'][path.name]
-    # Independent figure files must also decode.
-    for path in [ROOT/'examples/workflow.png', ROOT/'examples/gallery/overview.png']:
-        with Image.open(path) as im: im.load()
+    with Image.open(ROOT/'examples/workflow.png') as im:
+        im.load()
     links = 0
     for doc in ROOT.rglob('*.md'):
         for target in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)', doc.read_text()):
