@@ -2,34 +2,34 @@
   "path_base": ".",
   "examples": [
     {
-      "source_id": "F_0102954",
+      "source_id": "A_0100439",
       "condition": "rain",
       "files": {
         "source_image": {
           "path": "rain/source.jpg",
-          "bytes": 1160282,
-          "sha256": "7bf3b48707a48572c2a110a1123ad76f723a0261eb4f811b46178411e5caf26e",
+          "bytes": 1255532,
+          "sha256": "94b1ac478d1bead997030ade01a4b4ff6d8901833f769a5dfcd40b2004be10e1",
           "width": 3840,
           "height": 2160,
           "mode": "RGB"
         },
         "source_annotation": {
           "path": "rain/source.xml",
-          "bytes": 531,
-          "sha256": "f3d53e7835bbe230a82538d17c63e9c9747a94a15e90bd3abef52177d8212d1d"
+          "bytes": 534,
+          "sha256": "3dceef8fe92b5d8ead7d99c3afbd4ac72f0ce6c335619238232bb1ee3d8b4559"
         },
         "final_image": {
           "path": "rain/final.jpg",
-          "bytes": 168054,
-          "sha256": "60adc722b6313c3f718b94e5e10875021644dfd049f2797355c006f58103b07a",
+          "bytes": 137064,
+          "sha256": "cb164daa3e13f24472d6e2058557a10f66271482b9f97b90cae35f24fe39d0ca",
           "width": 1024,
           "height": 576,
           "mode": "RGB"
         },
         "final_annotation": {
           "path": "rain/final.xml",
-          "bytes": 525,
-          "sha256": "3ad8f736a962060826d6e31ac9db384e87f45b5ee57472c7d7517c787bbdd857"
+          "bytes": 526,
+          "sha256": "3b7522695ad0238d5f07bad5b6f86c543792b7fd48ef828cb20d6a6bc941c0d3"
         }
       },
       "config": {

@@ -22,7 +22,7 @@ Rebuild the workflow image with `python tools/render_examples.py` from `generati
 
 | Condition | Source ID | Source | Final |
 | --- | --- | --- | --- |
-| Rain | F_0102954 | [image](gallery/rain/source.jpg), [annotation](gallery/rain/source.xml) | [image](gallery/rain/final.jpg), [annotation](gallery/rain/final.xml) |
+| Rain | A_0100439 | [image](gallery/rain/source.jpg), [annotation](gallery/rain/source.xml) | [image](gallery/rain/final.jpg), [annotation](gallery/rain/final.xml) |
 | Snow | A_0106838 | [image](gallery/snow/source.jpg), [annotation](gallery/snow/source.xml) | [image](gallery/snow/final.jpg), [annotation](gallery/snow/final.xml) |
 | Fog | A_0106837 | [image](gallery/fog/source.jpg), [annotation](gallery/fog/source.xml) | [image](gallery/fog/final.jpg), [annotation](gallery/fog/final.xml) |
 | Dust | H_0103862 | [image](gallery/dust/source.jpg), [annotation](gallery/dust/source.xml) | [image](gallery/dust/final.jpg), [annotation](gallery/dust/final.xml) |

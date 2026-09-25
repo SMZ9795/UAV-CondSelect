@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <annotation>
-	<folder>rain</folder>
+	<folder>final</folder>
 	<filename>final.jpg</filename>
 	<path>final.jpg</path>
 	<source>
@@ -18,10 +18,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>226</xmin>
-			<ymin>56</ymin>
-			<xmax>319</xmax>
-			<ymax>93</ymax>
+			<xmin>340</xmin>
+			<ymin>19</ymin>
+			<xmax>456</xmax>
+			<ymax>71</ymax>
 		</bndbox>
 	</object>
 </annotation>
