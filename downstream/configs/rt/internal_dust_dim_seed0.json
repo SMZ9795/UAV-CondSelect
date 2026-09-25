@@ -1,0 +1,270 @@
+{
+  "HybridEncoder": {
+    "act": "silu",
+    "depth_mult": 1,
+    "dim_feedforward": 1024,
+    "dropout": 0.0,
+    "enc_act": "gelu",
+    "expansion": 0.5,
+    "feat_strides": [
+      8,
+      16,
+      32
+    ],
+    "hidden_dim": 256,
+    "in_channels": [
+      128,
+      256,
+      512
+    ],
+    "nhead": 8,
+    "num_encoder_layers": 1,
+    "use_encoder_idx": [
+      2
+    ]
+  },
+  "PResNet": {
+    "depth": 18,
+    "freeze_at": -1,
+    "freeze_norm": false,
+    "num_stages": 4,
+    "pretrained": false,
+    "return_idx": [
+      1,
+      2,
+      3
+    ],
+    "variant": "d"
+  },
+  "RTDETR": {
+    "backbone": "PResNet",
+    "decoder": "RTDETRTransformerv2",
+    "encoder": "HybridEncoder"
+  },
+  "RTDETRCriterionv2": {
+    "alpha": 0.75,
+    "gamma": 2.0,
+    "losses": [
+      "vfl",
+      "boxes"
+    ],
+    "matcher": {
+      "alpha": 0.25,
+      "gamma": 2.0,
+      "type": "HungarianMatcher",
+      "weight_dict": {
+        "cost_bbox": 5,
+        "cost_class": 2,
+        "cost_giou": 2
+      }
+    },
+    "weight_dict": {
+      "loss_bbox": 5,
+      "loss_giou": 2,
+      "loss_vfl": 1
+    }
+  },
+  "RTDETRPostProcessor": {
+    "num_top_queries": 300
+  },
+  "RTDETRTransformerv2": {
+    "box_noise_scale": 1.0,
+    "cross_attn_method": "default",
+    "eval_idx": -1,
+    "feat_channels": [
+      256,
+      256,
+      256
+    ],
+    "feat_strides": [
+      8,
+      16,
+      32
+    ],
+    "hidden_dim": 256,
+    "label_noise_ratio": 0.5,
+    "num_denoising": 100,
+    "num_layers": 3,
+    "num_levels": 3,
+    "num_points": [
+      4,
+      4,
+      4
+    ],
+    "num_queries": 300,
+    "query_select_method": "default"
+  },
+  "checkpoint_freq": 1,
+  "clip_max_norm": 0.1,
+  "criterion": "RTDETRCriterionv2",
+  "ema": {
+    "decay": 0.9999,
+    "type": "ModelEMA",
+    "warmups": 2000
+  },
+  "epoches": 120,
+  "eval_spatial_size": [
+    960,
+    960
+  ],
+  "evaluator": {
+    "iou_types": [
+      "bbox"
+    ],
+    "type": "CocoEvaluator"
+  },
+  "find_unused_parameters": false,
+  "lr_scheduler": {
+    "gamma": 0.1,
+    "milestones": [
+      4500
+    ],
+    "type": "MultiStepLR"
+  },
+  "lr_warmup_scheduler": {
+    "type": "LinearWarmup",
+    "warmup_duration": 300
+  },
+  "model": "RTDETR",
+  "num_classes": 1,
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "lr": 0.0001,
+    "params": [
+      {
+        "params": "^(?=.*(?:norm|bn)).*$",
+        "weight_decay": 0.0
+      }
+    ],
+    "type": "AdamW",
+    "weight_decay": 0.0001
+  },
+  "output_dir": "${OUTPUT_ROOT}/internal_dust_dim_seed0",
+  "postprocessor": "RTDETRPostProcessor",
+  "print_freq": 50,
+  "remap_mscoco_category": true,
+  "scaler": {
+    "enabled": true,
+    "init_scale": 1024.0,
+    "type": "GradScaler"
+  },
+  "sync_bn": true,
+  "task": "detection",
+  "train_dataloader": {
+    "collate_fn": {
+      "scales": null,
+      "stop_epoch": 71,
+      "type": "BatchImageCollateFunction"
+    },
+    "dataset": {
+      "ann_file": "${ANNOTATION_ROOT}/dataset_014.json",
+      "img_folder": "${DATA_ROOT}",
+      "return_masks": false,
+      "transforms": {
+        "ops": [
+          {
+            "size": [
+              960,
+              960
+            ],
+            "type": "Resize"
+          },
+          {
+            "min_size": 1,
+            "type": "SanitizeBoundingBoxes"
+          },
+          {
+            "dtype": "float32",
+            "scale": true,
+            "type": "ConvertPILImage"
+          },
+          {
+            "fmt": "cxcywh",
+            "normalize": true,
+            "type": "ConvertBoxes"
+          }
+        ],
+        "policy": null,
+        "type": "Compose"
+      },
+      "type": "CocoDetection"
+    },
+    "drop_last": false,
+    "num_workers": 4,
+    "shuffle": false,
+    "total_batch_size": 16,
+    "type": "DataLoader"
+  },
+  "tuning": "${RT_WEIGHTS}",
+  "uav_protocol": {
+    "augmentation_mode": "deterministic_full_image_noaug",
+    "augmentation_reference_epochs": 120,
+    "augmentation_stop_reference_epoch": 117,
+    "balanced_sampler": false,
+    "base_learning_rate": 0.0001,
+    "checkpoint_selection_subset": null,
+    "checkpoint_weights": "ema",
+    "condition": "dust_dim",
+    "experiment": "INTERNAL",
+    "external_evaluation": "disabled",
+    "grad_scaler_initial_scale": 1024.0,
+    "gradient_accumulation_steps": 1,
+    "lr_drop_factor": 0.1,
+    "lr_drop_update": 4500,
+    "protocol_name": "frozen_internal_three_condition_v1",
+    "require_full_train_batches": true,
+    "sampler_seed": 0,
+    "sampling": "uniform_stateless_shuffled_repeating",
+    "split_seed": 20260908,
+    "total_optimizer_updates": 6000,
+    "validation_interval_updates": 0,
+    "warmup_updates": 300,
+    "internal_evaluation": "final_EMA",
+    "expected_training_images": 715,
+    "expected_task_counts": {
+      "clean": 511,
+      "dust": 102,
+      "dim_low_light": 102
+    }
+  },
+  "use_amp": true,
+  "use_ema": true,
+  "use_focal_loss": true,
+  "val_dataloader": {
+    "collate_fn": {
+      "scales": null,
+      "type": "BatchImageCollateFunction"
+    },
+    "dataset": {
+      "ann_file": "${ANNOTATION_ROOT}/dataset_015.json",
+      "img_folder": "${DATA_ROOT}",
+      "return_masks": false,
+      "transforms": {
+        "ops": [
+          {
+            "size": [
+              960,
+              960
+            ],
+            "type": "Resize"
+          },
+          {
+            "dtype": "float32",
+            "scale": true,
+            "type": "ConvertPILImage"
+          }
+        ],
+        "type": "Compose"
+      },
+      "type": "CocoDetection"
+    },
+    "drop_last": false,
+    "num_workers": 4,
+    "shuffle": false,
+    "total_batch_size": 1,
+    "type": "DataLoader"
+  }
+}

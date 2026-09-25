@@ -1,0 +1,268 @@
+{
+  "repository": "black-forest-labs/FLUX.2-klein-base-9B",
+  "revision": "32773329fbe7e81a90ef971740e8ba4b0364ecf3",
+  "pipeline_class": "Flux2KleinPipeline",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "status": "git_blob_verified",
+      "expected_size": 1580,
+      "actual_size": 1580,
+      "verification": "git_blob_sha1",
+      "expected_hash": "f1ca65ce6a5b0774360fde1ec05157d9f937aaa2",
+      "actual_hash": "f1ca65ce6a5b0774360fde1ec05157d9f937aaa2"
+    },
+    {
+      "path": "LICENSE.md",
+      "status": "git_blob_verified",
+      "expected_size": 18158,
+      "actual_size": 18158,
+      "verification": "git_blob_sha1",
+      "expected_hash": "f6eb422412c4d98986fa3671bb46363894f099bb",
+      "actual_hash": "f6eb422412c4d98986fa3671bb46363894f099bb"
+    },
+    {
+      "path": "README.md",
+      "status": "git_blob_verified",
+      "expected_size": 10395,
+      "actual_size": 10395,
+      "verification": "git_blob_sha1",
+      "expected_hash": "22ef093322322e92ec05ccd966e9858b4ca05c28",
+      "actual_hash": "22ef093322322e92ec05ccd966e9858b4ca05c28"
+    },
+    {
+      "path": "editing.jpg",
+      "status": "sha256_verified",
+      "expected_size": 2506178,
+      "actual_size": 2506178,
+      "verification": "lfs_sha256",
+      "expected_hash": "2912ca5a7cb9ccbdc8627f8123894d28d8d5e5b0425e8907b3c8111659885ce0",
+      "actual_hash": "2912ca5a7cb9ccbdc8627f8123894d28d8d5e5b0425e8907b3c8111659885ce0"
+    },
+    {
+      "path": "flux-2-klein-base-9b.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 18157185168,
+      "actual_size": 18157185168,
+      "verification": "lfs_sha256",
+      "expected_hash": "4a54fad7f5f741b99eee217198daac20b8d8e515e2a1f5b064fd51cf074f95bd",
+      "actual_hash": "4a54fad7f5f741b99eee217198daac20b8d8e515e2a1f5b064fd51cf074f95bd"
+    },
+    {
+      "path": "model_index.json",
+      "status": "git_blob_verified",
+      "expected_size": 422,
+      "actual_size": 422,
+      "verification": "git_blob_sha1",
+      "expected_hash": "8bd1147173cb71f16e20819cbb8b7955695f5a16",
+      "actual_hash": "8bd1147173cb71f16e20819cbb8b7955695f5a16"
+    },
+    {
+      "path": "others.jpg",
+      "status": "sha256_verified",
+      "expected_size": 3386946,
+      "actual_size": 3386946,
+      "verification": "lfs_sha256",
+      "expected_hash": "78caed191515181abe87c10b6303a0fb58ae5518b8e7c7ed5847f406b377a0e4",
+      "actual_hash": "78caed191515181abe87c10b6303a0fb58ae5518b8e7c7ed5847f406b377a0e4"
+    },
+    {
+      "path": "realism.jpg",
+      "status": "sha256_verified",
+      "expected_size": 2855711,
+      "actual_size": 2855711,
+      "verification": "lfs_sha256",
+      "expected_hash": "6cccc69a683c3f650eb149a006be54cdcd42eb92b367d2b8e65939d486d1946a",
+      "actual_hash": "6cccc69a683c3f650eb149a006be54cdcd42eb92b367d2b8e65939d486d1946a"
+    },
+    {
+      "path": "scheduler/scheduler_config.json",
+      "status": "git_blob_verified",
+      "expected_size": 486,
+      "actual_size": 486,
+      "verification": "git_blob_sha1",
+      "expected_hash": "7e53605e2643440b310fa554f087641893883c5f",
+      "actual_hash": "7e53605e2643440b310fa554f087641893883c5f"
+    },
+    {
+      "path": "text_encoder/config.json",
+      "status": "git_blob_verified",
+      "expected_size": 1538,
+      "actual_size": 1538,
+      "verification": "git_blob_sha1",
+      "expected_hash": "dd0d909c489845c5042d866f0d9f258784a90304",
+      "actual_hash": "dd0d909c489845c5042d866f0d9f258784a90304"
+    },
+    {
+      "path": "text_encoder/generation_config.json",
+      "status": "git_blob_verified",
+      "expected_size": 214,
+      "actual_size": 214,
+      "verification": "git_blob_sha1",
+      "expected_hash": "f5af93d0c7764fa38e3b1cd3aaba1b6307246d3b",
+      "actual_hash": "f5af93d0c7764fa38e3b1cd3aaba1b6307246d3b"
+    },
+    {
+      "path": "text_encoder/model-00001-of-00004.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 4902257696,
+      "actual_size": 4902257696,
+      "verification": "lfs_sha256",
+      "expected_hash": "c0dc64934ae0f730ddc80d99af44968d01a89e8454df07d762096ea1356446bc",
+      "actual_hash": "c0dc64934ae0f730ddc80d99af44968d01a89e8454df07d762096ea1356446bc"
+    },
+    {
+      "path": "text_encoder/model-00002-of-00004.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 4915960368,
+      "actual_size": 4915960368,
+      "verification": "lfs_sha256",
+      "expected_hash": "d58533b468c31caa0222540a8aefddea1d74dc6e1fee928da8556d3d85729d6e",
+      "actual_hash": "d58533b468c31caa0222540a8aefddea1d74dc6e1fee928da8556d3d85729d6e"
+    },
+    {
+      "path": "text_encoder/model-00003-of-00004.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 4983068496,
+      "actual_size": 4983068496,
+      "verification": "lfs_sha256",
+      "expected_hash": "74927fec432e050365bf757bb30348f560a44394efac89f492680b7c910b64fd",
+      "actual_hash": "74927fec432e050365bf757bb30348f560a44394efac89f492680b7c910b64fd"
+    },
+    {
+      "path": "text_encoder/model-00004-of-00004.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 1580230264,
+      "actual_size": 1580230264,
+      "verification": "lfs_sha256",
+      "expected_hash": "cb73f466fade5716702bda38d4e3b321c9358c39889e46fb9d613fb038bfcb2f",
+      "actual_hash": "cb73f466fade5716702bda38d4e3b321c9358c39889e46fb9d613fb038bfcb2f"
+    },
+    {
+      "path": "text_encoder/model.safetensors.index.json",
+      "status": "git_blob_verified",
+      "expected_size": 32914,
+      "actual_size": 32914,
+      "verification": "git_blob_sha1",
+      "expected_hash": "991332e2a7dada9479948259f715fe1f6c69db54",
+      "actual_hash": "991332e2a7dada9479948259f715fe1f6c69db54"
+    },
+    {
+      "path": "tokenizer/added_tokens.json",
+      "status": "git_blob_verified",
+      "expected_size": 707,
+      "actual_size": 707,
+      "verification": "git_blob_sha1",
+      "expected_hash": "b54f9135e44c1e81047e8d05cb027af8bc039eed",
+      "actual_hash": "b54f9135e44c1e81047e8d05cb027af8bc039eed"
+    },
+    {
+      "path": "tokenizer/chat_template.jinja",
+      "status": "git_blob_verified",
+      "expected_size": 4168,
+      "actual_size": 4168,
+      "verification": "git_blob_sha1",
+      "expected_hash": "01be9b307daa2d425f7c168c9fb145a286e0afb4",
+      "actual_hash": "01be9b307daa2d425f7c168c9fb145a286e0afb4"
+    },
+    {
+      "path": "tokenizer/merges.txt",
+      "status": "git_blob_verified",
+      "expected_size": 1671853,
+      "actual_size": 1671853,
+      "verification": "git_blob_sha1",
+      "expected_hash": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "actual_hash": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7"
+    },
+    {
+      "path": "tokenizer/special_tokens_map.json",
+      "status": "git_blob_verified",
+      "expected_size": 613,
+      "actual_size": 613,
+      "verification": "git_blob_sha1",
+      "expected_hash": "ac23c0aaa2434523c494330aeb79c58395378103",
+      "actual_hash": "ac23c0aaa2434523c494330aeb79c58395378103"
+    },
+    {
+      "path": "tokenizer/tokenizer.json",
+      "status": "sha256_verified",
+      "expected_size": 11422654,
+      "actual_size": 11422654,
+      "verification": "lfs_sha256",
+      "expected_hash": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "actual_hash": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "status": "git_blob_verified",
+      "expected_size": 5404,
+      "actual_size": 5404,
+      "verification": "git_blob_sha1",
+      "expected_hash": "ddaf69808214a44fdd26d3785b66c1367c78277a",
+      "actual_hash": "ddaf69808214a44fdd26d3785b66c1367c78277a"
+    },
+    {
+      "path": "tokenizer/vocab.json",
+      "status": "git_blob_verified",
+      "expected_size": 2776833,
+      "actual_size": 2776833,
+      "verification": "git_blob_sha1",
+      "expected_hash": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "actual_hash": "4783fe10ac3adce15ac8f358ef5462739852c569"
+    },
+    {
+      "path": "transformer/config.json",
+      "status": "git_blob_verified",
+      "expected_size": 532,
+      "actual_size": 532,
+      "verification": "git_blob_sha1",
+      "expected_hash": "18be32de66f7a23e012bea711592a1388e6451da",
+      "actual_hash": "18be32de66f7a23e012bea711592a1388e6451da"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 9801069272,
+      "actual_size": 9801069272,
+      "verification": "lfs_sha256",
+      "expected_hash": "1f63382abfccc0a8cbd034555010ebe9f94c5a33ffcc55ac08900ef2893e57b8",
+      "actual_hash": "1f63382abfccc0a8cbd034555010ebe9f94c5a33ffcc55ac08900ef2893e57b8"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 8356121608,
+      "actual_size": 8356121608,
+      "verification": "lfs_sha256",
+      "expected_hash": "d891d8c65a14816e84148cb81d9455acd666f66ef703df497659ff0b1c1516ca",
+      "actual_hash": "d891d8c65a14816e84148cb81d9455acd666f66ef703df497659ff0b1c1516ca"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "status": "git_blob_verified",
+      "expected_size": 24875,
+      "actual_size": 24875,
+      "verification": "git_blob_sha1",
+      "expected_hash": "53b7e151560e69b6b242208b98da4eb25b0111c6",
+      "actual_hash": "53b7e151560e69b6b242208b98da4eb25b0111c6"
+    },
+    {
+      "path": "vae/config.json",
+      "status": "git_blob_verified",
+      "expected_size": 821,
+      "actual_size": 821,
+      "verification": "git_blob_sha1",
+      "expected_hash": "c3f38eb4c188a96a462519159356bd0fcc28cd14",
+      "actual_hash": "c3f38eb4c188a96a462519159356bd0fcc28cd14"
+    },
+    {
+      "path": "vae/diffusion_pytorch_model.safetensors",
+      "status": "sha256_verified",
+      "expected_size": 168120878,
+      "actual_size": 168120878,
+      "verification": "lfs_sha256",
+      "expected_hash": "ca70d2202afe6415bdbcb8793ba8cd99fd159cfe6192381504d6c4d3036e0f04",
+      "actual_hash": "ca70d2202afe6415bdbcb8793ba8cd99fd159cfe6192381504d6c4d3036e0f04"
+    }
+  ]
+}

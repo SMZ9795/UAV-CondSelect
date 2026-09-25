@@ -1,0 +1,6857 @@
+[
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_clean_only_seed0",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.16798559339252,
+      "Swarm117": 21.059353124718246
+    },
+    "aggregate_AP": 29.613669359055386,
+    "configuration": "configs/rt/external_clean_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_020.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_clean_only_seed1",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.67193274068237,
+      "Swarm117": 25.59727340844643
+    },
+    "aggregate_AP": 31.634603074564403,
+    "configuration": "configs/rt/external_clean_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_020.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_clean_only_seed2",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 39.01056410463163,
+      "Swarm117": 30.08997092968183
+    },
+    "aggregate_AP": 34.550267517156726,
+    "configuration": "configs/rt/external_clean_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_020.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_only_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.34378981233751,
+      "Swarm117": 27.17607832874465
+    },
+    "aggregate_AP": 32.75993407054108,
+    "configuration": "configs/rt/external_rain_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_051.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_only_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.17599430080849,
+      "Swarm117": 35.07228365782042
+    },
+    "aggregate_AP": 37.12413897931445,
+    "configuration": "configs/rt/external_rain_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_051.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_only_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.00788490006348,
+      "Swarm117": 25.569352793526694
+    },
+    "aggregate_AP": 31.78861884679509,
+    "configuration": "configs/rt/external_rain_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_051.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_only_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 41.027003379080284,
+      "Swarm117": 21.101020864317118
+    },
+    "aggregate_AP": 31.064012121698703,
+    "configuration": "configs/rt/external_snow_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_101.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_only_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.97920142214433,
+      "Swarm117": 34.123919541993466
+    },
+    "aggregate_AP": 36.05156048206889,
+    "configuration": "configs/rt/external_snow_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_101.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_only_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.58661877014266,
+      "Swarm117": 33.313566826326216
+    },
+    "aggregate_AP": 35.95009279823444,
+    "configuration": "configs/rt/external_snow_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_101.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_only_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.88985798587864,
+      "Swarm117": 18.267021767099216
+    },
+    "aggregate_AP": 28.07843987648893,
+    "configuration": "configs/rt/external_fog_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_075.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_only_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.24859368946921,
+      "Swarm117": 29.940102100755016
+    },
+    "aggregate_AP": 34.094347895112115,
+    "configuration": "configs/rt/external_fog_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_075.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_only_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.71767484037802,
+      "Swarm117": 28.159992525410775
+    },
+    "aggregate_AP": 32.9388336828944,
+    "configuration": "configs/rt/external_fog_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_075.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_only_seed0",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.44176987782947,
+      "Swarm117": 21.80514751880119
+    },
+    "aggregate_AP": 30.123458698315332,
+    "configuration": "configs/rt/external_dust_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_067.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_only_seed1",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.27460234028316,
+      "Swarm117": 34.88725779236016
+    },
+    "aggregate_AP": 35.580930066321656,
+    "configuration": "configs/rt/external_dust_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_067.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_only_seed2",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.416167573818996,
+      "Swarm117": 26.53750483277968
+    },
+    "aggregate_AP": 32.476836203299335,
+    "configuration": "configs/rt/external_dust_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_067.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dim_low_light_seed0",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.94700126640123,
+      "Swarm117": 19.899815261375316
+    },
+    "aggregate_AP": 29.423408263888273,
+    "configuration": "configs/rt/external_dim_low_light_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_065.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dim_low_light_seed1",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.54946528004111,
+      "Swarm117": 38.28865043692184
+    },
+    "aggregate_AP": 38.41905785848148,
+    "configuration": "configs/rt/external_dim_low_light_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_065.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dim_low_light_seed2",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.3620833337633,
+      "Swarm117": 28.192651085930798
+    },
+    "aggregate_AP": 32.77736720984705,
+    "configuration": "configs/rt/external_dim_low_light_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_065.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.81182027655233,
+      "Swarm117": 22.410286045712034
+    },
+    "aggregate_AP": 30.611053161132183,
+    "configuration": "configs/rt/external_rain_snow_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_087.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.33695981190935,
+      "Swarm117": 35.22497969272457
+    },
+    "aggregate_AP": 37.28096975231696,
+    "configuration": "configs/rt/external_rain_snow_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_087.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 36.65366065985985,
+      "Swarm117": 27.087347689515063
+    },
+    "aggregate_AP": 31.870504174687458,
+    "configuration": "configs/rt/external_rain_snow_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_087.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.43570528160815,
+      "Swarm117": 24.179040344336233
+    },
+    "aggregate_AP": 31.80737281297219,
+    "configuration": "configs/rt/external_rain_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_081.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.4291982641836,
+      "Swarm117": 33.472476618237614
+    },
+    "aggregate_AP": 35.95083744121061,
+    "configuration": "configs/rt/external_rain_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_081.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 36.89457007553014,
+      "Swarm117": 29.365468446910693
+    },
+    "aggregate_AP": 33.13001926122042,
+    "configuration": "configs/rt/external_rain_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_081.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.76606501717586,
+      "Swarm117": 23.67793978741523
+    },
+    "aggregate_AP": 31.222002402295544,
+    "configuration": "configs/rt/external_rain_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_077.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.92393601128144,
+      "Swarm117": 34.1850171882675
+    },
+    "aggregate_AP": 36.554476599774475,
+    "configuration": "configs/rt/external_rain_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_077.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.90653441412402,
+      "Swarm117": 24.669878912900348
+    },
+    "aggregate_AP": 31.788206663512184,
+    "configuration": "configs/rt/external_rain_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_077.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.255132085664876,
+      "Swarm117": 29.676726784946883
+    },
+    "aggregate_AP": 34.46592943530588,
+    "configuration": "configs/rt/external_rain_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_047.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.89482959560285,
+      "Swarm117": 33.8497404923275
+    },
+    "aggregate_AP": 35.87228504396518,
+    "configuration": "configs/rt/external_rain_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_047.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 39.51706463366882,
+      "Swarm117": 25.52871542660825
+    },
+    "aggregate_AP": 32.522890030138534,
+    "configuration": "configs/rt/external_rain_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_047.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.653523995913204,
+      "Swarm117": 25.523756857371506
+    },
+    "aggregate_AP": 31.588640426642357,
+    "configuration": "configs/rt/external_snow_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_095.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.285599346818124,
+      "Swarm117": 33.558879620569435
+    },
+    "aggregate_AP": 35.42223948369378,
+    "configuration": "configs/rt/external_snow_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_095.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.57885860712247,
+      "Swarm117": 21.485596878308684
+    },
+    "aggregate_AP": 30.032227742715577,
+    "configuration": "configs/rt/external_snow_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_095.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.74191179516934,
+      "Swarm117": 20.67766049705682
+    },
+    "aggregate_AP": 29.70978614611308,
+    "configuration": "configs/rt/external_snow_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_093.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.884614409190085,
+      "Swarm117": 28.69901898939225
+    },
+    "aggregate_AP": 32.79181669929117,
+    "configuration": "configs/rt/external_snow_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_093.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 39.15480297991716,
+      "Swarm117": 28.322678434891213
+    },
+    "aggregate_AP": 33.73874070740418,
+    "configuration": "configs/rt/external_snow_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_093.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.26517385012609,
+      "Swarm117": 18.282875290152077
+    },
+    "aggregate_AP": 28.274024570139083,
+    "configuration": "configs/rt/external_snow_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_004.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.36448718442882,
+      "Swarm117": 36.14003460448466
+    },
+    "aggregate_AP": 36.75226089445674,
+    "configuration": "configs/rt/external_snow_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_004.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.227547349076346,
+      "Swarm117": 29.122284782138504
+    },
+    "aggregate_AP": 33.67491606560743,
+    "configuration": "configs/rt/external_snow_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_004.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.048954168193255,
+      "Swarm117": 29.142830795957824
+    },
+    "aggregate_AP": 33.59589248207554,
+    "configuration": "configs/rt/external_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_071.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.80825724480124,
+      "Swarm117": 35.251496875067666
+    },
+    "aggregate_AP": 36.02987705993445,
+    "configuration": "configs/rt/external_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_071.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.45027104232441,
+      "Swarm117": 26.91784905601797
+    },
+    "aggregate_AP": 32.184060049171194,
+    "configuration": "configs/rt/external_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_071.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.58603409737192,
+      "Swarm117": 24.929514100979276
+    },
+    "aggregate_AP": 31.2577740991756,
+    "configuration": "configs/rt/external_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_069.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.25796313227881,
+      "Swarm117": 37.33303081264584
+    },
+    "aggregate_AP": 38.295496972462324,
+    "configuration": "configs/rt/external_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_069.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 39.6073338418692,
+      "Swarm117": 24.06510872870288
+    },
+    "aggregate_AP": 31.83622128528604,
+    "configuration": "configs/rt/external_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_069.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.58904427885088,
+      "Swarm117": 26.575055071758563
+    },
+    "aggregate_AP": 32.58204967530472,
+    "configuration": "configs/rt/external_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_013.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.97853462963856,
+      "Swarm117": 34.286711290960575
+    },
+    "aggregate_AP": 37.13262296029957,
+    "configuration": "configs/rt/external_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_013.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_dust_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.30460385770503,
+      "Swarm117": 30.858783756157205
+    },
+    "aggregate_AP": 34.08169380693112,
+    "configuration": "configs/rt/external_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_013.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_fog_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.15576700672703,
+      "Swarm117": 29.470610363911497
+    },
+    "aggregate_AP": 33.81318868531926,
+    "configuration": "configs/rt/external_rain_snow_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_002.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_fog_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.52516383249997,
+      "Swarm117": 33.04649356696889
+    },
+    "aggregate_AP": 35.78582869973443,
+    "configuration": "configs/rt/external_rain_snow_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_002.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_fog_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.281687728341815,
+      "Swarm117": 23.587009904664438
+    },
+    "aggregate_AP": 30.934348816503125,
+    "configuration": "configs/rt/external_rain_snow_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_002.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 36.8156918229608,
+      "Swarm117": 26.440789720105716
+    },
+    "aggregate_AP": 31.628240771533257,
+    "configuration": "configs/rt/external_rain_snow_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_091.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.90938683476381,
+      "Swarm117": 35.27413766558452
+    },
+    "aggregate_AP": 36.09176225017416,
+    "configuration": "configs/rt/external_rain_snow_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_091.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.49853741538497,
+      "Swarm117": 28.78661240273623
+    },
+    "aggregate_AP": 33.6425749090606,
+    "configuration": "configs/rt/external_rain_snow_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_091.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.715447540534186,
+      "Swarm117": 25.171609154105923
+    },
+    "aggregate_AP": 32.443528347320054,
+    "configuration": "configs/rt/external_rain_snow_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_089.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.627264783856866,
+      "Swarm117": 35.45713693683833
+    },
+    "aggregate_AP": 37.0422008603476,
+    "configuration": "configs/rt/external_rain_snow_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_089.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_snow_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.956793186368245,
+      "Swarm117": 26.65125319456965
+    },
+    "aggregate_AP": 32.304023190468946,
+    "configuration": "configs/rt/external_rain_snow_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_089.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.341656539796745,
+      "Swarm117": 27.92716148212378
+    },
+    "aggregate_AP": 32.63440901096026,
+    "configuration": "configs/rt/external_rain_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_085.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.39252337771266,
+      "Swarm117": 36.37117900926189
+    },
+    "aggregate_AP": 36.88185119348728,
+    "configuration": "configs/rt/external_rain_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_085.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.45166410357734,
+      "Swarm117": 34.014677033448365
+    },
+    "aggregate_AP": 35.733170568512854,
+    "configuration": "configs/rt/external_rain_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_085.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.84708696753381,
+      "Swarm117": 27.94542654747758
+    },
+    "aggregate_AP": 32.8962567575057,
+    "configuration": "configs/rt/external_rain_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_083.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.29384392611044,
+      "Swarm117": 35.25852054010377
+    },
+    "aggregate_AP": 36.77618223310711,
+    "configuration": "configs/rt/external_rain_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_083.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_fog_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.786272715244365,
+      "Swarm117": 28.182572551123446
+    },
+    "aggregate_AP": 33.484422633183904,
+    "configuration": "configs/rt/external_rain_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_083.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.02925857882947,
+      "Swarm117": 30.521007509162885
+    },
+    "aggregate_AP": 34.77513304399618,
+    "configuration": "configs/rt/external_rain_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_079.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.221123652879434,
+      "Swarm117": 35.36692478776736
+    },
+    "aggregate_AP": 36.794024220323394,
+    "configuration": "configs/rt/external_rain_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_079.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_rain_dust_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 35.967644493914314,
+      "Swarm117": 27.059639698194488
+    },
+    "aggregate_AP": 31.5136420960544,
+    "configuration": "configs/rt/external_rain_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_079.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.992293066549976,
+      "Swarm117": 29.073813896170396
+    },
+    "aggregate_AP": 33.533053481360184,
+    "configuration": "configs/rt/external_snow_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_099.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.600038953271394,
+      "Swarm117": 31.916719962928177
+    },
+    "aggregate_AP": 35.25837945809978,
+    "configuration": "configs/rt/external_snow_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_099.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.158413543786786,
+      "Swarm117": 29.002922108720284
+    },
+    "aggregate_AP": 33.58066782625353,
+    "configuration": "configs/rt/external_snow_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_099.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.592803407427695,
+      "Swarm117": 26.318215338444205
+    },
+    "aggregate_AP": 32.95550937293595,
+    "configuration": "configs/rt/external_snow_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_097.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.16946997908136,
+      "Swarm117": 35.03494411521382
+    },
+    "aggregate_AP": 36.60220704714759,
+    "configuration": "configs/rt/external_snow_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_097.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_fog_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.09154462164119,
+      "Swarm117": 31.463367063990205
+    },
+    "aggregate_AP": 34.2774558428157,
+    "configuration": "configs/rt/external_snow_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_097.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.144810479455714,
+      "Swarm117": 24.56035533947995
+    },
+    "aggregate_AP": 31.352582909467834,
+    "configuration": "configs/rt/external_snow_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_006.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.05206103908673,
+      "Swarm117": 38.333590248572975
+    },
+    "aggregate_AP": 38.69282564382985,
+    "configuration": "configs/rt/external_snow_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_006.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_snow_dust_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.74627905916733,
+      "Swarm117": 31.432793077828304
+    },
+    "aggregate_AP": 34.589536068497814,
+    "configuration": "configs/rt/external_snow_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_006.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_dim_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.89484930670078,
+      "Swarm117": 23.746063912833566
+    },
+    "aggregate_AP": 31.32045660976717,
+    "configuration": "configs/rt/external_fog_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_073.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_dim_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.3887732842743,
+      "Swarm117": 34.09265448182536
+    },
+    "aggregate_AP": 36.240713883049835,
+    "configuration": "configs/rt/external_fog_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_073.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_fog_dust_dim_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.59565044550833,
+      "Swarm117": 27.695534775983095
+    },
+    "aggregate_AP": 33.145592610745716,
+    "configuration": "configs/rt/external_fog_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_073.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dim_low_light_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 37.39489003400614,
+      "Swarm117": 27.514082151344894
+    },
+    "aggregate_AP": 32.454486092675516,
+    "configuration": "configs/rt/external_no_dim_low_light_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_055.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dim_low_light_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 37.760715880110965,
+      "Swarm117": 26.378329245125176
+    },
+    "aggregate_AP": 32.06952256261807,
+    "configuration": "configs/rt/external_no_dim_low_light_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_055.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dim_low_light_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 36.88901371909648,
+      "Swarm117": 31.694233740320417
+    },
+    "aggregate_AP": 34.29162372970845,
+    "configuration": "configs/rt/external_no_dim_low_light_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_055.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dust_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.59030698386594,
+      "Swarm117": 25.838566871652414
+    },
+    "aggregate_AP": 32.21443692775918,
+    "configuration": "configs/rt/external_no_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_057.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dust_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.730263085646214,
+      "Swarm117": 36.6347684602307
+    },
+    "aggregate_AP": 37.68251577293846,
+    "configuration": "configs/rt/external_no_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_057.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_dust_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.33881576141999,
+      "Swarm117": 29.72737614277267
+    },
+    "aggregate_AP": 34.03309595209633,
+    "configuration": "configs/rt/external_no_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_057.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_fog_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.65788836358972,
+      "Swarm117": 25.35715518672244
+    },
+    "aggregate_AP": 32.00752177515608,
+    "configuration": "configs/rt/external_no_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_017.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_fog_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 39.08871316554597,
+      "Swarm117": 33.58499518765523
+    },
+    "aggregate_AP": 36.336854176600596,
+    "configuration": "configs/rt/external_no_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_017.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_fog_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 38.11485428263171,
+      "Swarm117": 33.023431104530964
+    },
+    "aggregate_AP": 35.56914269358134,
+    "configuration": "configs/rt/external_no_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_017.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_snow_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 36.78134215815604,
+      "Swarm117": 18.1151480663288
+    },
+    "aggregate_AP": 27.44824511224242,
+    "configuration": "configs/rt/external_no_snow_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_019.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_snow_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 38.20115882321626,
+      "Swarm117": 37.516472834390065
+    },
+    "aggregate_AP": 37.85881582880316,
+    "configuration": "configs/rt/external_no_snow_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_019.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_snow_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.418898103950255,
+      "Swarm117": 24.68121828962003
+    },
+    "aggregate_AP": 31.050058196785145,
+    "configuration": "configs/rt/external_no_snow_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_019.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_rain_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 39.078128401328655,
+      "Swarm117": 29.945697133338328
+    },
+    "aggregate_AP": 34.51191276733349,
+    "configuration": "configs/rt/external_no_rain_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_059.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_rain_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.90556172567534,
+      "Swarm117": 29.282463358886844
+    },
+    "aggregate_AP": 33.09401254228109,
+    "configuration": "configs/rt/external_no_rain_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_059.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_no_rain_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.412677744538655,
+      "Swarm117": 28.307874633503737
+    },
+    "aggregate_AP": 32.86027618902119,
+    "configuration": "configs/rt/external_no_rain_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_059.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_full_generation_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "weather130": 38.198256956502135,
+      "Swarm117": 28.335217240136245
+    },
+    "aggregate_AP": 33.26673709831919,
+    "configuration": "configs/rt/external_full_generation_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_022.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_full_generation_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "weather130": 36.29955146969221,
+      "Swarm117": 35.870723007103486
+    },
+    "aggregate_AP": 36.08513723839785,
+    "configuration": "configs/rt/external_full_generation_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_022.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "external_full_generation_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "weather130": 37.242070607767694,
+      "Swarm117": 28.547274989858355
+    },
+    "aggregate_AP": 32.894672798813026,
+    "configuration": "configs/rt/external_full_generation_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_022.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_clean_only_seed0",
+    "protocol": "internal",
+    "conditions": [],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.59843051066308,
+      "rain": 74.24436760499302,
+      "snow": 72.41178082625585,
+      "fog": 75.44191709543625,
+      "dust": 75.29694966805486,
+      "dim_low_light": 72.88974355133155
+    },
+    "aggregate_AP": 72.48053154278911,
+    "configuration": "configs/rt/internal_clean_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_026.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_clean_only_seed1",
+    "protocol": "internal",
+    "conditions": [],
+    "seed": 1,
+    "components_AP": {
+      "clean": 65.71987860393568,
+      "rain": 75.54282323110813,
+      "snow": 73.02702187367443,
+      "fog": 73.50011817341972,
+      "dust": 71.0085502012044,
+      "dim_low_light": 73.72614715305211
+    },
+    "aggregate_AP": 72.08742320606575,
+    "configuration": "configs/rt/internal_clean_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_026.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_clean_only_seed2",
+    "protocol": "internal",
+    "conditions": [],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.83515058839923,
+      "rain": 75.70402048033583,
+      "snow": 71.07238242642005,
+      "fog": 73.3931628590527,
+      "dust": 74.48932002916456,
+      "dim_low_light": 73.25631815078718
+    },
+    "aggregate_AP": 72.12505908902659,
+    "configuration": "configs/rt/internal_clean_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_026.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_only_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 65.4927144578313,
+      "rain": 78.83770673105556,
+      "snow": 72.78378607245428,
+      "fog": 76.16376243650197,
+      "dust": 77.46718351215907,
+      "dim_low_light": 76.38820359039647
+    },
+    "aggregate_AP": 74.52222613339977,
+    "configuration": "configs/rt/internal_rain_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_052.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_only_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.26626880901138,
+      "rain": 76.28245119817726,
+      "snow": 73.14547496911412,
+      "fog": 75.42339640138773,
+      "dust": 76.84140789835384,
+      "dim_low_light": 75.15135020718883
+    },
+    "aggregate_AP": 73.51839158053886,
+    "configuration": "configs/rt/internal_rain_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_052.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_only_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 62.74506459537278,
+      "rain": 78.68774578322324,
+      "snow": 73.15265253951925,
+      "fog": 76.66152460987308,
+      "dust": 74.99536702690244,
+      "dim_low_light": 74.40235469382559
+    },
+    "aggregate_AP": 73.44078487478606,
+    "configuration": "configs/rt/internal_rain_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_052.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_only_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.07243461878883,
+      "rain": 75.34639546445594,
+      "snow": 73.69319049268779,
+      "fog": 74.98784359290126,
+      "dust": 76.06742102781708,
+      "dim_low_light": 74.2826808078751
+    },
+    "aggregate_AP": 72.908327667421,
+    "configuration": "configs/rt/internal_snow_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_120.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_only_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.73195275437922,
+      "rain": 75.4888659335911,
+      "snow": 75.14691549198005,
+      "fog": 76.23686686873484,
+      "dust": 76.29879394311592,
+      "dim_low_light": 75.448030688914
+    },
+    "aggregate_AP": 73.89190428011919,
+    "configuration": "configs/rt/internal_snow_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_120.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_only_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.59332037795701,
+      "rain": 77.98670571050715,
+      "snow": 74.0143535480424,
+      "fog": 76.48083133106812,
+      "dust": 76.98325199135355,
+      "dim_low_light": 75.55644851534657
+    },
+    "aggregate_AP": 74.26915191237913,
+    "configuration": "configs/rt/internal_snow_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_120.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_only_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.7881331953984,
+      "rain": 74.51607561657443,
+      "snow": 70.96715553908332,
+      "fog": 77.34556312774134,
+      "dust": 73.56197295975426,
+      "dim_low_light": 72.19228884323748
+    },
+    "aggregate_AP": 72.0618648802982,
+    "configuration": "configs/rt/internal_fog_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_107.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_only_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.41416864297552,
+      "rain": 74.41669727284858,
+      "snow": 74.1561487170359,
+      "fog": 76.27982555293,
+      "dust": 76.63264450026468,
+      "dim_low_light": 73.42398416640428
+    },
+    "aggregate_AP": 73.05391147540983,
+    "configuration": "configs/rt/internal_fog_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_107.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_only_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.252312224650694,
+      "rain": 76.36141159861424,
+      "snow": 72.93884808096583,
+      "fog": 74.26409854244305,
+      "dust": 75.39898950733362,
+      "dim_low_light": 73.19922962368476
+    },
+    "aggregate_AP": 72.5691482629487,
+    "configuration": "configs/rt/internal_fog_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_107.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_only_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.789496730568004,
+      "rain": 77.43452334979685,
+      "snow": 74.99233208311838,
+      "fog": 77.58014290088687,
+      "dust": 78.88033487188117,
+      "dim_low_light": 75.0988691845399
+    },
+    "aggregate_AP": 74.62928318679853,
+    "configuration": "configs/rt/internal_dust_only_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_103.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_only_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 65.0691630465276,
+      "rain": 76.66205742008279,
+      "snow": 74.61194895101902,
+      "fog": 75.14079619811943,
+      "dust": 77.01198953090214,
+      "dim_low_light": 75.16272377196559
+    },
+    "aggregate_AP": 73.94311315310277,
+    "configuration": "configs/rt/internal_dust_only_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_103.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_only_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 65.25900228783023,
+      "rain": 76.41266236056177,
+      "snow": 73.59044835004737,
+      "fog": 74.13984412596851,
+      "dust": 75.92998552602513,
+      "dim_low_light": 74.1421032196099
+    },
+    "aggregate_AP": 73.24567431167382,
+    "configuration": "configs/rt/internal_dust_only_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_103.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dim_low_light_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 66.07673437969012,
+      "rain": 76.32833507468733,
+      "snow": 73.56400727735887,
+      "fog": 75.15987385839013,
+      "dust": 74.32836487942083,
+      "dim_low_light": 76.41020331051773
+    },
+    "aggregate_AP": 73.64458646334417,
+    "configuration": "configs/rt/internal_dim_low_light_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_102.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dim_low_light_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.91795636147192,
+      "rain": 74.46241166444366,
+      "snow": 73.13973388208954,
+      "fog": 74.48345750073861,
+      "dust": 76.1445663025912,
+      "dim_low_light": 77.4655687792507
+    },
+    "aggregate_AP": 73.43561574843095,
+    "configuration": "configs/rt/internal_dim_low_light_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_102.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dim_low_light_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.02394565411585,
+      "rain": 73.57624483763642,
+      "snow": 71.98109269692775,
+      "fog": 73.35201493973895,
+      "dust": 74.65009746746951,
+      "dim_low_light": 75.43924605011108
+    },
+    "aggregate_AP": 72.17044027433326,
+    "configuration": "configs/rt/internal_dim_low_light_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_102.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.35000275436584,
+      "rain": 77.63954071086654,
+      "snow": 75.44683960419938,
+      "fog": 75.31687786797185,
+      "dust": 75.76878274512755,
+      "dim_low_light": 74.20074169947894
+    },
+    "aggregate_AP": 73.62046423033502,
+    "configuration": "configs/rt/internal_rain_snow_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_113.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.44437596926693,
+      "rain": 76.32755632640776,
+      "snow": 74.99595194309411,
+      "fog": 75.8218674427227,
+      "dust": 74.90118968527938,
+      "dim_low_light": 76.07443821662623
+    },
+    "aggregate_AP": 73.76089659723284,
+    "configuration": "configs/rt/internal_rain_snow_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_113.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.192030312716,
+      "rain": 76.16944782262361,
+      "snow": 74.68754714842606,
+      "fog": 74.78492389526836,
+      "dust": 75.81159966261697,
+      "dim_low_light": 73.79519275931486
+    },
+    "aggregate_AP": 73.24012360016097,
+    "configuration": "configs/rt/internal_rain_snow_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_113.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.731139553949504,
+      "rain": 78.03835053835054,
+      "snow": 74.79329182149166,
+      "fog": 76.73446881986999,
+      "dust": 77.49877578036501,
+      "dim_low_light": 78.11183137862582
+    },
+    "aggregate_AP": 74.8179763154421,
+    "configuration": "configs/rt/internal_rain_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_110.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.725385078927424,
+      "rain": 76.6441144949866,
+      "snow": 73.99306668711445,
+      "fog": 74.75225545395037,
+      "dust": 75.14510538670974,
+      "dim_low_light": 74.06580415603935
+    },
+    "aggregate_AP": 73.05428854295465,
+    "configuration": "configs/rt/internal_rain_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_110.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.00665272396746,
+      "rain": 76.21779368191432,
+      "snow": 73.65102687617674,
+      "fog": 76.16272234991298,
+      "dust": 77.59840957423486,
+      "dim_low_light": 74.0704596636138
+    },
+    "aggregate_AP": 73.61784414497002,
+    "configuration": "configs/rt/internal_rain_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_110.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.90920824829037,
+      "rain": 76.68424269472285,
+      "snow": 76.01039840095206,
+      "fog": 75.73186218401685,
+      "dust": 78.09612138980633,
+      "dim_low_light": 74.53633180054474
+    },
+    "aggregate_AP": 74.16136078638887,
+    "configuration": "configs/rt/internal_rain_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_108.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.02266648479412,
+      "rain": 78.08447922027221,
+      "snow": 75.06662481439822,
+      "fog": 76.03274594344582,
+      "dust": 76.16852806750542,
+      "dim_low_light": 77.03086294964065
+    },
+    "aggregate_AP": 74.4009845800094,
+    "configuration": "configs/rt/internal_rain_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_108.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.369985627923285,
+      "rain": 77.26686063134385,
+      "snow": 73.71207266306872,
+      "fog": 75.82628188731275,
+      "dust": 76.47557549584498,
+      "dim_low_light": 75.86950349643179
+    },
+    "aggregate_AP": 73.75337996698757,
+    "configuration": "configs/rt/internal_rain_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_108.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.61676598257596,
+      "rain": 75.90062918937691,
+      "snow": 72.58962959239187,
+      "fog": 75.98818850518225,
+      "dust": 74.00790070001186,
+      "dim_low_light": 75.86940182761069
+    },
+    "aggregate_AP": 72.99541929952493,
+    "configuration": "configs/rt/internal_rain_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_048.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.1472494705644,
+      "rain": 75.62787360489519,
+      "snow": 74.3286891779258,
+      "fog": 74.9712046525671,
+      "dust": 75.55854832181201,
+      "dim_low_light": 77.24346071801187
+    },
+    "aggregate_AP": 73.64617099096273,
+    "configuration": "configs/rt/internal_rain_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_048.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 65.42901942761735,
+      "rain": 76.89237332777266,
+      "snow": 73.720649302421,
+      "fog": 75.43332028469267,
+      "dust": 77.17623831669695,
+      "dim_low_light": 75.4300994933646
+    },
+    "aggregate_AP": 74.0136166920942,
+    "configuration": "configs/rt/internal_rain_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_048.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.89742707481653,
+      "rain": 74.66680801569618,
+      "snow": 75.8141240184688,
+      "fog": 75.11306525331503,
+      "dust": 75.2241594769772,
+      "dim_low_light": 75.22798045404379
+    },
+    "aggregate_AP": 73.3239273822196,
+    "configuration": "configs/rt/internal_snow_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_117.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.68324841556347,
+      "rain": 76.69042290770095,
+      "snow": 74.45857448222503,
+      "fog": 75.7445000081053,
+      "dust": 76.3466724137102,
+      "dim_low_light": 75.82628210694077
+    },
+    "aggregate_AP": 73.95828338904096,
+    "configuration": "configs/rt/internal_snow_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_117.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.2242932657671,
+      "rain": 75.75297391660327,
+      "snow": 73.8937124033199,
+      "fog": 76.70972187482977,
+      "dust": 77.08173446029389,
+      "dim_low_light": 76.53392770061187
+    },
+    "aggregate_AP": 74.03272727023763,
+    "configuration": "configs/rt/internal_snow_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_117.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.804206762740975,
+      "rain": 77.26344209512257,
+      "snow": 74.00048041962279,
+      "fog": 75.59967976027845,
+      "dust": 76.78943641674636,
+      "dim_low_light": 75.15270810697541
+    },
+    "aggregate_AP": 73.7683255935811,
+    "configuration": "configs/rt/internal_snow_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_116.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 65.0741020033873,
+      "rain": 76.79094697193703,
+      "snow": 75.28562517874137,
+      "fog": 77.19288098045075,
+      "dust": 76.75304712460814,
+      "dim_low_light": 75.42365223574751
+    },
+    "aggregate_AP": 74.42004241581202,
+    "configuration": "configs/rt/internal_snow_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_116.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.06231619632463,
+      "rain": 75.3961205007292,
+      "snow": 73.45987585859322,
+      "fog": 75.10698864143895,
+      "dust": 75.88355408285963,
+      "dim_low_light": 74.23889515477207
+    },
+    "aggregate_AP": 73.02462507245295,
+    "configuration": "configs/rt/internal_snow_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_116.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 62.99178642129162,
+      "rain": 76.0290356918684,
+      "snow": 74.90168287457503,
+      "fog": 78.03464045304932,
+      "dust": 77.91328838930848,
+      "dim_low_light": 75.93149068265646
+    },
+    "aggregate_AP": 74.30032075212489,
+    "configuration": "configs/rt/internal_snow_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_008.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.831411664439486,
+      "rain": 77.44079643156164,
+      "snow": 75.3279298487787,
+      "fog": 77.58894151921378,
+      "dust": 76.48907705630283,
+      "dim_low_light": 72.86941662849169
+    },
+    "aggregate_AP": 73.92459552479802,
+    "configuration": "configs/rt/internal_snow_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_008.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.554576804435484,
+      "rain": 76.35568175588992,
+      "snow": 73.53611900933937,
+      "fog": 74.00751588788721,
+      "dust": 74.82294522890082,
+      "dim_low_light": 74.97014937022753
+    },
+    "aggregate_AP": 72.87449800944673,
+    "configuration": "configs/rt/internal_snow_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_008.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.22735972611886,
+      "rain": 76.37144135186618,
+      "snow": 74.323544958422,
+      "fog": 75.73274000717201,
+      "dust": 76.28265012295277,
+      "dim_low_light": 73.77087003032304
+    },
+    "aggregate_AP": 73.45143436614248,
+    "configuration": "configs/rt/internal_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_105.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.64128466349422,
+      "rain": 76.77819386056399,
+      "snow": 75.40507481502455,
+      "fog": 75.70079253939261,
+      "dust": 78.46616081380974,
+      "dim_low_light": 75.11561742857073
+    },
+    "aggregate_AP": 74.35118735347596,
+    "configuration": "configs/rt/internal_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_105.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.09059869028702,
+      "rain": 76.19439117072085,
+      "snow": 73.72899405138739,
+      "fog": 74.79843727801821,
+      "dust": 76.67056801798037,
+      "dim_low_light": 75.21804087314938
+    },
+    "aggregate_AP": 73.4501716802572,
+    "configuration": "configs/rt/internal_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_105.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.15926874680851,
+      "rain": 76.67402160384106,
+      "snow": 73.85513372765847,
+      "fog": 76.43243147844197,
+      "dust": 75.98731301701599,
+      "dim_low_light": 74.61848361811332
+    },
+    "aggregate_AP": 73.62110869864655,
+    "configuration": "configs/rt/internal_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_104.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.697131016224915,
+      "rain": 74.96482357916456,
+      "snow": 72.39688275114229,
+      "fog": 76.09558437595945,
+      "dust": 75.57031229344435,
+      "dim_low_light": 75.35019302485037
+    },
+    "aggregate_AP": 73.01248784013099,
+    "configuration": "configs/rt/internal_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_104.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.95562910305884,
+      "rain": 75.53952771165304,
+      "snow": 72.72116964226036,
+      "fog": 74.77944441675979,
+      "dust": 75.79768124709344,
+      "dim_low_light": 76.40526341960908
+    },
+    "aggregate_AP": 73.19978592340576,
+    "configuration": "configs/rt/internal_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_104.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.1792001629943,
+      "rain": 75.95233564353414,
+      "snow": 73.99856166416612,
+      "fog": 75.58048318092044,
+      "dust": 75.24760866194775,
+      "dim_low_light": 76.22341199481892
+    },
+    "aggregate_AP": 73.53026688473028,
+    "configuration": "configs/rt/internal_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_014.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.3303329516196,
+      "rain": 75.76499554717377,
+      "snow": 74.35504584213312,
+      "fog": 76.57264931247374,
+      "dust": 76.54266544118651,
+      "dim_low_light": 76.85211761118023
+    },
+    "aggregate_AP": 74.06963445096116,
+    "configuration": "configs/rt/internal_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_014.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_dust_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.202365099244,
+      "rain": 75.36572764908634,
+      "snow": 70.95898127946202,
+      "fog": 74.20205277184512,
+      "dust": 75.585732128665,
+      "dim_low_light": 75.94500099154224
+    },
+    "aggregate_AP": 72.70997665330746,
+    "configuration": "configs/rt/internal_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_014.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_fog_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 61.702050941739984,
+      "rain": 76.9945853447704,
+      "snow": 74.92404575817322,
+      "fog": 76.34323884895667,
+      "dust": 75.01433748251523,
+      "dim_low_light": 73.2560952066903
+    },
+    "aggregate_AP": 73.0390589304743,
+    "configuration": "configs/rt/internal_rain_snow_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_007.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_fog_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 62.66501683557595,
+      "rain": 77.40187323385936,
+      "snow": 73.38458719130885,
+      "fog": 76.7098334528749,
+      "dust": 74.34607721555363,
+      "dim_low_light": 72.30103335507098
+    },
+    "aggregate_AP": 72.80140354737395,
+    "configuration": "configs/rt/internal_rain_snow_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_007.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_fog_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.15366635863706,
+      "rain": 75.4768836415414,
+      "snow": 73.77259749784503,
+      "fog": 75.2555748221881,
+      "dust": 75.26263798177236,
+      "dim_low_light": 74.14277428652784
+    },
+    "aggregate_AP": 72.84402243141862,
+    "configuration": "configs/rt/internal_rain_snow_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_007.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.1228438120773,
+      "rain": 77.8765830690443,
+      "snow": 75.11508327414685,
+      "fog": 77.40908044244212,
+      "dust": 77.47098999350413,
+      "dim_low_light": 74.803926576937
+    },
+    "aggregate_AP": 74.29975119469195,
+    "configuration": "configs/rt/internal_rain_snow_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_115.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.575122743230004,
+      "rain": 72.17367418057542,
+      "snow": 74.69797443893535,
+      "fog": 76.68041804180417,
+      "dust": 76.34382596777843,
+      "dim_low_light": 70.4246517648349
+    },
+    "aggregate_AP": 72.31594452285971,
+    "configuration": "configs/rt/internal_rain_snow_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_115.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.23535883635921,
+      "rain": 75.43944909852497,
+      "snow": 74.64816676789357,
+      "fog": 75.87459829799705,
+      "dust": 75.95244960851647,
+      "dim_low_light": 75.15268682517619
+    },
+    "aggregate_AP": 73.38378490574458,
+    "configuration": "configs/rt/internal_rain_snow_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_115.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 62.22101701330692,
+      "rain": 75.76509927084388,
+      "snow": 74.13152911929849,
+      "fog": 74.84804358560729,
+      "dust": 76.35964495487445,
+      "dim_low_light": 76.16771035322888
+    },
+    "aggregate_AP": 73.24884071619333,
+    "configuration": "configs/rt/internal_rain_snow_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_114.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.01297674167385,
+      "rain": 75.63342182502946,
+      "snow": 73.82649586384122,
+      "fog": 76.02758893242391,
+      "dust": 75.13437938628785,
+      "dim_low_light": 74.92484088229378
+    },
+    "aggregate_AP": 73.25995060525834,
+    "configuration": "configs/rt/internal_rain_snow_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_114.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_snow_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 62.58223212400452,
+      "rain": 76.09892000550151,
+      "snow": 75.09423237862659,
+      "fog": 76.04814170341024,
+      "dust": 75.51417805873659,
+      "dim_low_light": 78.05218523445944
+    },
+    "aggregate_AP": 73.89831491745649,
+    "configuration": "configs/rt/internal_rain_snow_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_114.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.60507607358045,
+      "rain": 76.15194376580516,
+      "snow": 75.29964611530634,
+      "fog": 76.71311217882739,
+      "dust": 75.41800613063788,
+      "dim_low_light": 74.31704291678794
+    },
+    "aggregate_AP": 73.58413786349085,
+    "configuration": "configs/rt/internal_rain_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_112.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.63026105603163,
+      "rain": 75.80917609238128,
+      "snow": 74.08611755385594,
+      "fog": 75.38136599402839,
+      "dust": 75.9245575950141,
+      "dim_low_light": 74.75503836816141
+    },
+    "aggregate_AP": 73.43108610991213,
+    "configuration": "configs/rt/internal_rain_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_112.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.24975209800611,
+      "rain": 76.94345336789318,
+      "snow": 73.10221518347784,
+      "fog": 76.15873476218151,
+      "dust": 76.58161649718805,
+      "dim_low_light": 76.11653215795297
+    },
+    "aggregate_AP": 73.85871734444994,
+    "configuration": "configs/rt/internal_rain_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_112.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.71981942648215,
+      "rain": 76.54021799695498,
+      "snow": 75.5353228179961,
+      "fog": 78.37076326680288,
+      "dust": 75.5278242328242,
+      "dim_low_light": 76.79366628228694
+    },
+    "aggregate_AP": 74.41460233722454,
+    "configuration": "configs/rt/internal_rain_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_111.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 62.85192665921067,
+      "rain": 75.23695927995635,
+      "snow": 73.89709924267692,
+      "fog": 75.75585389113554,
+      "dust": 73.7127482001062,
+      "dim_low_light": 74.83831776699222
+    },
+    "aggregate_AP": 72.71548417334633,
+    "configuration": "configs/rt/internal_rain_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_111.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_fog_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.963979428116836,
+      "rain": 77.00787854107783,
+      "snow": 74.97489842100916,
+      "fog": 75.94734058916694,
+      "dust": 76.84715195184627,
+      "dim_low_light": 74.752722658064
+    },
+    "aggregate_AP": 73.91566193154684,
+    "configuration": "configs/rt/internal_rain_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_111.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.9018504734632,
+      "rain": 75.73737798690456,
+      "snow": 74.10008198883108,
+      "fog": 75.1508996270153,
+      "dust": 75.61065301436251,
+      "dim_low_light": 75.95994794720922
+    },
+    "aggregate_AP": 73.41013517296432,
+    "configuration": "configs/rt/internal_rain_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_109.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.25983339545339,
+      "rain": 76.6585194209931,
+      "snow": 76.07248739240555,
+      "fog": 76.59823731493799,
+      "dust": 75.29170521284756,
+      "dim_low_light": 75.95810665141714
+    },
+    "aggregate_AP": 73.97314823134245,
+    "configuration": "configs/rt/internal_rain_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_109.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_rain_dust_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.7770903718756,
+      "rain": 77.86660673311196,
+      "snow": 74.37846483497435,
+      "fog": 75.51051642094771,
+      "dust": 75.88256840670279,
+      "dim_low_light": 76.59894465683055
+    },
+    "aggregate_AP": 74.00236523740716,
+    "configuration": "configs/rt/internal_rain_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_109.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.43565249261425,
+      "rain": 78.01586848580328,
+      "snow": 75.88102545516804,
+      "fog": 75.96312071773346,
+      "dust": 77.02917629049291,
+      "dim_low_light": 75.10863433329371
+    },
+    "aggregate_AP": 74.40557962918427,
+    "configuration": "configs/rt/internal_snow_fog_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_119.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.77205296392123,
+      "rain": 77.73547435500706,
+      "snow": 73.61950823780687,
+      "fog": 76.47541043697129,
+      "dust": 76.22423398259059,
+      "dim_low_light": 74.70313954044047
+    },
+    "aggregate_AP": 73.75496991945626,
+    "configuration": "configs/rt/internal_snow_fog_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_119.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.54509927151708,
+      "rain": 76.91419022400714,
+      "snow": 76.21647606346767,
+      "fog": 76.37985423260389,
+      "dust": 76.5302898503932,
+      "dim_low_light": 74.57000932129752
+    },
+    "aggregate_AP": 74.02598649388109,
+    "configuration": "configs/rt/internal_snow_fog_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_119.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.41218287525253,
+      "rain": 76.2428334263194,
+      "snow": 75.60853300006592,
+      "fog": 76.16870232853165,
+      "dust": 77.08123607541923,
+      "dim_low_light": 74.54547739818335
+    },
+    "aggregate_AP": 73.84316085062868,
+    "configuration": "configs/rt/internal_snow_fog_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_118.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.85164062303255,
+      "rain": 75.80367722685575,
+      "snow": 76.44620207644249,
+      "fog": 76.51956963989082,
+      "dust": 75.74373096650324,
+      "dim_low_light": 75.53327095277405
+    },
+    "aggregate_AP": 74.14968191424981,
+    "configuration": "configs/rt/internal_snow_fog_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_118.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_fog_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 61.67957409954936,
+      "rain": 76.02433824787104,
+      "snow": 74.87457680698505,
+      "fog": 77.42570066112813,
+      "dust": 77.53199138041342,
+      "dim_low_light": 77.11834796151602
+    },
+    "aggregate_AP": 74.1090881929105,
+    "configuration": "configs/rt/internal_snow_fog_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_118.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.98375972757787,
+      "rain": 75.91369974646507,
+      "snow": 74.36451657063535,
+      "fog": 75.69549454945495,
+      "dust": 76.0529315132015,
+      "dim_low_light": 75.27191403350861
+    },
+    "aggregate_AP": 73.54705269014056,
+    "configuration": "configs/rt/internal_snow_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_009.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 61.70542737709129,
+      "rain": 73.81046031140166,
+      "snow": 74.38991353645025,
+      "fog": 75.84413470293269,
+      "dust": 76.79047886600785,
+      "dim_low_light": 76.06312483501686
+    },
+    "aggregate_AP": 73.1005899381501,
+    "configuration": "configs/rt/internal_snow_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_009.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_snow_dust_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.473108092226106,
+      "rain": 76.55080399370355,
+      "snow": 75.5165950161158,
+      "fog": 75.41611854948196,
+      "dust": 76.8145227352361,
+      "dim_low_light": 75.22781500729288
+    },
+    "aggregate_AP": 73.83316056567607,
+    "configuration": "configs/rt/internal_snow_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_009.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_dim_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.4068040658613,
+      "rain": 76.11112110160572,
+      "snow": 74.52110139300842,
+      "fog": 77.48978351905393,
+      "dust": 76.47625286059032,
+      "dim_low_light": 76.14845538147196
+    },
+    "aggregate_AP": 74.1922530535986,
+    "configuration": "configs/rt/internal_fog_dust_dim_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_106.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_dim_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.41871142202186,
+      "rain": 76.25158941929155,
+      "snow": 73.57033033124735,
+      "fog": 74.24433248593576,
+      "dust": 76.46367032832178,
+      "dim_low_light": 74.97645678470735
+    },
+    "aggregate_AP": 73.32084846192095,
+    "configuration": "configs/rt/internal_fog_dust_dim_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_106.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_fog_dust_dim_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.45361938743669,
+      "rain": 74.95727054678088,
+      "snow": 73.43381387474001,
+      "fog": 75.64145785142935,
+      "dust": 76.04189864072254,
+      "dim_low_light": 73.5984551119118
+    },
+    "aggregate_AP": 72.85441923550354,
+    "configuration": "configs/rt/internal_fog_dust_dim_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_106.json",
+    "successful_updates": 6000,
+    "amp_skips": 3,
+    "attempted_updates": 6003,
+    "presentations": 96048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dim_low_light_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 62.328809645907704,
+      "rain": 75.41026340796375,
+      "snow": 73.88416052815573,
+      "fog": 74.3452809566671,
+      "dust": 75.75360565212867,
+      "dim_low_light": 74.65584738315965
+    },
+    "aggregate_AP": 72.72966126233044,
+    "configuration": "configs/rt/internal_no_dim_low_light_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_060.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dim_low_light_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 62.829203662752406,
+      "rain": 75.60729346856961,
+      "snow": 74.84149531717371,
+      "fog": 75.33570534087606,
+      "dust": 76.02000044008759,
+      "dim_low_light": 75.34043082003575
+    },
+    "aggregate_AP": 73.32902150824918,
+    "configuration": "configs/rt/internal_no_dim_low_light_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_060.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dim_low_light_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.06098227888016,
+      "rain": 76.25241806251867,
+      "snow": 74.90507987470842,
+      "fog": 75.98943773490102,
+      "dust": 76.89021036190803,
+      "dim_low_light": 75.48330528570894
+    },
+    "aggregate_AP": 73.9302389331042,
+    "configuration": "configs/rt/internal_no_dim_low_light_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_060.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dust_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 63.04039933333681,
+      "rain": 74.40296059002019,
+      "snow": 73.5601537900898,
+      "fog": 74.60078633747705,
+      "dust": 75.94513349780686,
+      "dim_low_light": 76.3880992060187
+    },
+    "aggregate_AP": 72.98958879245824,
+    "configuration": "configs/rt/internal_no_dust_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_061.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dust_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.23718127188988,
+      "rain": 72.36502125127426,
+      "snow": 73.87068686140334,
+      "fog": 76.2686161149816,
+      "dust": 76.34329561832016,
+      "dim_low_light": 76.2618292248778
+    },
+    "aggregate_AP": 73.22443839045785,
+    "configuration": "configs/rt/internal_no_dust_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_061.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_dust_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.56378927148083,
+      "rain": 76.67542801702662,
+      "snow": 74.48733097476126,
+      "fog": 75.49686711284839,
+      "dust": 76.92688382283606,
+      "dim_low_light": 75.57138350574054
+    },
+    "aggregate_AP": 73.95361378411562,
+    "configuration": "configs/rt/internal_no_dust_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_061.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_fog_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.75727101415164,
+      "rain": 77.22217902408094,
+      "snow": 75.07948098449401,
+      "fog": 75.90732866894717,
+      "dust": 75.65698487306746,
+      "dim_low_light": 75.59100740190196
+    },
+    "aggregate_AP": 74.0357086611072,
+    "configuration": "configs/rt/internal_no_fog_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_028.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_fog_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 64.31904361197654,
+      "rain": 77.80167555589078,
+      "snow": 76.71445352339227,
+      "fog": 76.48130392983373,
+      "dust": 76.75710070370528,
+      "dim_low_light": 77.17073121647555
+    },
+    "aggregate_AP": 74.87405142354568,
+    "configuration": "configs/rt/internal_no_fog_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_028.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_fog_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.44600921764192,
+      "rain": 78.5462779461779,
+      "snow": 75.51481261659747,
+      "fog": 77.04752836953631,
+      "dust": 77.5952689163153,
+      "dim_low_light": 75.96559533795913
+    },
+    "aggregate_AP": 74.85258206737133,
+    "configuration": "configs/rt/internal_no_fog_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_028.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_snow_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 62.926120909680094,
+      "rain": 78.240127584187,
+      "snow": 75.67352449530668,
+      "fog": 77.0210585848591,
+      "dust": 76.131031441253,
+      "dim_low_light": 75.22878752690251
+    },
+    "aggregate_AP": 74.2034417570314,
+    "configuration": "configs/rt/internal_no_snow_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_043.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_snow_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 61.53973633175207,
+      "rain": 75.7178262080944,
+      "snow": 74.75767367147452,
+      "fog": 75.41970865648348,
+      "dust": 76.65547144223049,
+      "dim_low_light": 76.17058000110481
+    },
+    "aggregate_AP": 73.37683271852329,
+    "configuration": "configs/rt/internal_no_snow_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_043.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_snow_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 64.07643290443276,
+      "rain": 76.40926029556826,
+      "snow": 73.4448609412784,
+      "fog": 75.73197017503949,
+      "dust": 75.70142392396254,
+      "dim_low_light": 75.56184417218628
+    },
+    "aggregate_AP": 73.48763206874462,
+    "configuration": "configs/rt/internal_no_snow_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_043.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_rain_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 64.01537207668099,
+      "rain": 79.44527482150077,
+      "snow": 74.56131762158874,
+      "fog": 76.06615041128083,
+      "dust": 76.39269281053495,
+      "dim_low_light": 77.11919709678364
+    },
+    "aggregate_AP": 74.60000080639499,
+    "configuration": "configs/rt/internal_no_rain_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_062.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_rain_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 63.94367388340068,
+      "rain": 75.90202127515072,
+      "snow": 74.92733535157915,
+      "fog": 73.53118753815873,
+      "dust": 74.59741364961037,
+      "dim_low_light": 75.22866254319636
+    },
+    "aggregate_AP": 73.02171570684933,
+    "configuration": "configs/rt/internal_no_rain_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_062.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_no_rain_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 63.42669417695542,
+      "rain": 77.20631644964952,
+      "snow": 75.14101571486135,
+      "fog": 76.03886598976615,
+      "dust": 75.71979623756876,
+      "dim_low_light": 76.49317802670602
+    },
+    "aggregate_AP": 74.00431109925121,
+    "configuration": "configs/rt/internal_no_rain_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_062.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_full_generation_seed0",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "clean": 62.26185862860822,
+      "rain": 77.11629904108962,
+      "snow": 75.91594863051623,
+      "fog": 77.43660408572029,
+      "dust": 76.38766904860695,
+      "dim_low_light": 75.74381384144282
+    },
+    "aggregate_AP": 74.14369887933069,
+    "configuration": "configs/rt/internal_full_generation_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_027.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_full_generation_seed1",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "clean": 62.3106179304315,
+      "rain": 75.25751027628507,
+      "snow": 74.35200451444831,
+      "fog": 75.268049998138,
+      "dust": 74.63888124180173,
+      "dim_low_light": 74.9162663709601
+    },
+    "aggregate_AP": 72.79055505534411,
+    "configuration": "configs/rt/internal_full_generation_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_027.json",
+    "successful_updates": 6000,
+    "amp_skips": 4,
+    "attempted_updates": 6004,
+    "presentations": 96064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "RT-DETRv2-S",
+    "run_id": "internal_full_generation_seed2",
+    "protocol": "internal",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "clean": 62.96309351187786,
+      "rain": 74.9645990052921,
+      "snow": 72.8182505134714,
+      "fog": 73.36177390920436,
+      "dust": 75.29520392921879,
+      "dim_low_light": 74.09649305532882
+    },
+    "aggregate_AP": 72.24990232073222,
+    "configuration": "configs/rt/internal_full_generation_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_027.json",
+    "successful_updates": 6000,
+    "amp_skips": 5,
+    "attempted_updates": 6005,
+    "presentations": 96080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s01_external_seed0",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.27310193356133,
+      "Swarm117": 23.471657985383228
+    },
+    "aggregate_AP": 28.372379959472276,
+    "configuration": "configs/yolo/s01_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_132.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s01_external_seed1",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.30796934007822,
+      "Swarm117": 24.53973702961788
+    },
+    "aggregate_AP": 28.42385318484805,
+    "configuration": "configs/yolo/s01_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_132.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s01_external_seed2",
+    "protocol": "external",
+    "conditions": [],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.501806508040545,
+      "Swarm117": 25.101030481238894
+    },
+    "aggregate_AP": 28.80141849463972,
+    "configuration": "configs/yolo/s01_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_132.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s28_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.52675773187397,
+      "Swarm117": 23.761683507670263
+    },
+    "aggregate_AP": 28.144220619772117,
+    "configuration": "configs/yolo/s28_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_159.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s28_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.06651312114094,
+      "Swarm117": 23.683643068322024
+    },
+    "aggregate_AP": 27.875078094731485,
+    "configuration": "configs/yolo/s28_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_159.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s28_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 33.695292231798454,
+      "Swarm117": 24.87206794884104
+    },
+    "aggregate_AP": 29.28368009031975,
+    "configuration": "configs/yolo/s28_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_159.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s29_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.014689573290077,
+      "Swarm117": 24.712544558978884
+    },
+    "aggregate_AP": 27.86361706613448,
+    "configuration": "configs/yolo/s29_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_160.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s29_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.86478337272093,
+      "Swarm117": 25.656300283442924
+    },
+    "aggregate_AP": 29.260541828081926,
+    "configuration": "configs/yolo/s29_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_160.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s29_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.98279552572365,
+      "Swarm117": 27.58538303585023
+    },
+    "aggregate_AP": 30.284089280786944,
+    "configuration": "configs/yolo/s29_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_160.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s32_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.94548169217813,
+      "Swarm117": 23.39969781946695
+    },
+    "aggregate_AP": 28.17258975582254,
+    "configuration": "configs/yolo/s32_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_163.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s32_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.31655312642568,
+      "Swarm117": 25.5437682136688
+    },
+    "aggregate_AP": 29.43016067004724,
+    "configuration": "configs/yolo/s32_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_163.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s32_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 34.899748179231736,
+      "Swarm117": 24.412150352242065
+    },
+    "aggregate_AP": 29.6559492657369,
+    "configuration": "configs/yolo/s32_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_163.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s30_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.60218426207118,
+      "Swarm117": 24.41046431870862
+    },
+    "aggregate_AP": 28.506324290389898,
+    "configuration": "configs/yolo/s30_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_161.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s30_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.50648789616052,
+      "Swarm117": 23.791770681588552
+    },
+    "aggregate_AP": 28.149129288874537,
+    "configuration": "configs/yolo/s30_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_161.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s30_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 33.91018651731693,
+      "Swarm117": 24.019075651186142
+    },
+    "aggregate_AP": 28.964631084251536,
+    "configuration": "configs/yolo/s30_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_161.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s31_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.64267338570788,
+      "Swarm117": 23.29616293728747
+    },
+    "aggregate_AP": 26.969418161497675,
+    "configuration": "configs/yolo/s31_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_162.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s31_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.375255130293525,
+      "Swarm117": 25.225498221168202
+    },
+    "aggregate_AP": 28.800376675730863,
+    "configuration": "configs/yolo/s31_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_162.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s31_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.049642411389314,
+      "Swarm117": 22.67967308101378
+    },
+    "aggregate_AP": 27.364657746201548,
+    "configuration": "configs/yolo/s31_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_162.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s18_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 29.432698840858844,
+      "Swarm117": 24.63773359447307
+    },
+    "aggregate_AP": 27.035216217665955,
+    "configuration": "configs/yolo/s18_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_149.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s18_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.64118003143457,
+      "Swarm117": 26.22042798436901
+    },
+    "aggregate_AP": 29.43080400790179,
+    "configuration": "configs/yolo/s18_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_149.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s18_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 33.19758288403759,
+      "Swarm117": 25.254879016569493
+    },
+    "aggregate_AP": 29.22623095030354,
+    "configuration": "configs/yolo/s18_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_149.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s21_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.568630306397,
+      "Swarm117": 23.795306471169635
+    },
+    "aggregate_AP": 28.681968388783318,
+    "configuration": "configs/yolo/s21_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_152.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s21_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 35.24926347121787,
+      "Swarm117": 25.659805688750147
+    },
+    "aggregate_AP": 30.45453457998401,
+    "configuration": "configs/yolo/s21_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_152.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s21_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.196187413669662,
+      "Swarm117": 22.809699865619105
+    },
+    "aggregate_AP": 27.002943639644386,
+    "configuration": "configs/yolo/s21_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_152.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s19_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.260726780169904,
+      "Swarm117": 26.343079090839
+    },
+    "aggregate_AP": 29.80190293550445,
+    "configuration": "configs/yolo/s19_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_150.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s19_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.28478260384545,
+      "Swarm117": 26.039733797583008
+    },
+    "aggregate_AP": 29.662258200714227,
+    "configuration": "configs/yolo/s19_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_150.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s19_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.13162999713681,
+      "Swarm117": 23.85266563078822
+    },
+    "aggregate_AP": 27.992147813962518,
+    "configuration": "configs/yolo/s19_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_150.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s20_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.29956167869599,
+      "Swarm117": 26.637500503340362
+    },
+    "aggregate_AP": 29.968531091018175,
+    "configuration": "configs/yolo/s20_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_151.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s20_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.6554432713933,
+      "Swarm117": 24.460012030549937
+    },
+    "aggregate_AP": 28.55772765097162,
+    "configuration": "configs/yolo/s20_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_151.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s20_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.651557436352697,
+      "Swarm117": 26.10325187371771
+    },
+    "aggregate_AP": 28.877404655035203,
+    "configuration": "configs/yolo/s20_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_151.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s24_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.40808531715783,
+      "Swarm117": 23.219978765381015
+    },
+    "aggregate_AP": 28.31403204126942,
+    "configuration": "configs/yolo/s24_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_155.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s24_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.701006441608154,
+      "Swarm117": 25.771994680458892
+    },
+    "aggregate_AP": 28.736500561033523,
+    "configuration": "configs/yolo/s24_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_155.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s24_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.944599310666504,
+      "Swarm117": 26.30790825613765
+    },
+    "aggregate_AP": 29.626253783402078,
+    "configuration": "configs/yolo/s24_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_155.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s22_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.779450270208756,
+      "Swarm117": 25.356961068878768
+    },
+    "aggregate_AP": 29.06820566954376,
+    "configuration": "configs/yolo/s22_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_153.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s22_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.22145360941814,
+      "Swarm117": 28.170603281455108
+    },
+    "aggregate_AP": 29.696028445436625,
+    "configuration": "configs/yolo/s22_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_153.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s22_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 35.12576137666406,
+      "Swarm117": 26.228396058900866
+    },
+    "aggregate_AP": 30.677078717782464,
+    "configuration": "configs/yolo/s22_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_153.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s23_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 29.720156581713812,
+      "Swarm117": 25.668062044142566
+    },
+    "aggregate_AP": 27.69410931292819,
+    "configuration": "configs/yolo/s23_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_154.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s23_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.65064831168665,
+      "Swarm117": 26.947171082210748
+    },
+    "aggregate_AP": 29.798909696948698,
+    "configuration": "configs/yolo/s23_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_154.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s23_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 30.57587392553752,
+      "Swarm117": 25.688947580679876
+    },
+    "aggregate_AP": 28.132410753108697,
+    "configuration": "configs/yolo/s23_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_154.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s26_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.28847684858367,
+      "Swarm117": 24.71678614197332
+    },
+    "aggregate_AP": 28.002631495278493,
+    "configuration": "configs/yolo/s26_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_157.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s26_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.800818888354634,
+      "Swarm117": 25.43249497387331
+    },
+    "aggregate_AP": 29.116656931113972,
+    "configuration": "configs/yolo/s26_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_157.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s26_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.0469382110056,
+      "Swarm117": 27.43462259299739
+    },
+    "aggregate_AP": 29.740780402001498,
+    "configuration": "configs/yolo/s26_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_157.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s27_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.55968984265249,
+      "Swarm117": 24.948581554436537
+    },
+    "aggregate_AP": 28.754135698544513,
+    "configuration": "configs/yolo/s27_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_158.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s27_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.60374151808504,
+      "Swarm117": 25.428056573377212
+    },
+    "aggregate_AP": 29.015899045731125,
+    "configuration": "configs/yolo/s27_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_158.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s27_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.31599567125401,
+      "Swarm117": 24.97725295549527
+    },
+    "aggregate_AP": 28.646624313374637,
+    "configuration": "configs/yolo/s27_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_158.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s25_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.726807776478182,
+      "Swarm117": 23.48511602137483
+    },
+    "aggregate_AP": 27.105961898926505,
+    "configuration": "configs/yolo/s25_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_156.json",
+    "successful_updates": 5500,
+    "amp_skips": 2,
+    "attempted_updates": 5502,
+    "presentations": 88032,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s25_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 30.713407329268698,
+      "Swarm117": 25.102860370000883
+    },
+    "aggregate_AP": 27.90813384963479,
+    "configuration": "configs/yolo/s25_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_156.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s25_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 30.755001408833433,
+      "Swarm117": 23.617083978164167
+    },
+    "aggregate_AP": 27.1860426934988,
+    "configuration": "configs/yolo/s25_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_156.json",
+    "successful_updates": 5500,
+    "amp_skips": 5,
+    "attempted_updates": 5505,
+    "presentations": 88080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s11_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.21491715583577,
+      "Swarm117": 25.397528087129555
+    },
+    "aggregate_AP": 29.30622262148266,
+    "configuration": "configs/yolo/s11_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_142.json",
+    "successful_updates": 5500,
+    "amp_skips": 5,
+    "attempted_updates": 5505,
+    "presentations": 88080,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s11_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 30.928389438513104,
+      "Swarm117": 24.54490658327888
+    },
+    "aggregate_AP": 27.73664801089599,
+    "configuration": "configs/yolo/s11_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_142.json",
+    "successful_updates": 5500,
+    "amp_skips": 2,
+    "attempted_updates": 5502,
+    "presentations": 88032,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s11_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 34.91310892693712,
+      "Swarm117": 24.956210198916033
+    },
+    "aggregate_AP": 29.934659562926576,
+    "configuration": "configs/yolo/s11_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_142.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s09_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.1033885523889,
+      "Swarm117": 27.25393830410978
+    },
+    "aggregate_AP": 29.67866342824934,
+    "configuration": "configs/yolo/s09_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_140.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s09_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.328986792505614,
+      "Swarm117": 27.15723604971126
+    },
+    "aggregate_AP": 29.243111421108438,
+    "configuration": "configs/yolo/s09_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_140.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s09_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 29.74417186982655,
+      "Swarm117": 27.84870231263044
+    },
+    "aggregate_AP": 28.796437091228494,
+    "configuration": "configs/yolo/s09_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_140.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s10_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.964138297639902,
+      "Swarm117": 24.358883914143338
+    },
+    "aggregate_AP": 27.66151110589162,
+    "configuration": "configs/yolo/s10_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_141.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s10_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.61263887429778,
+      "Swarm117": 26.422845697221035
+    },
+    "aggregate_AP": 30.017742285759407,
+    "configuration": "configs/yolo/s10_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_141.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s10_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 30.15054927189927,
+      "Swarm117": 25.408796956907366
+    },
+    "aggregate_AP": 27.779673114403316,
+    "configuration": "configs/yolo/s10_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_141.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s13_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.09424263883456,
+      "Swarm117": 24.976284997215963
+    },
+    "aggregate_AP": 28.035263818025264,
+    "configuration": "configs/yolo/s13_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_144.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s13_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.1863720969327,
+      "Swarm117": 25.768951063969414
+    },
+    "aggregate_AP": 28.977661580451056,
+    "configuration": "configs/yolo/s13_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_144.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s13_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 33.544603909632116,
+      "Swarm117": 25.07611969934861
+    },
+    "aggregate_AP": 29.310361804490363,
+    "configuration": "configs/yolo/s13_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_144.json",
+    "successful_updates": 5500,
+    "amp_skips": 2,
+    "attempted_updates": 5502,
+    "presentations": 88032,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s14_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 33.12199905448542,
+      "Swarm117": 23.155417536356715
+    },
+    "aggregate_AP": 28.13870829542107,
+    "configuration": "configs/yolo/s14_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_145.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s14_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.71694048529273,
+      "Swarm117": 23.21443674992175
+    },
+    "aggregate_AP": 27.465688617607242,
+    "configuration": "configs/yolo/s14_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_145.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s14_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.376794349417747,
+      "Swarm117": 24.970276305177048
+    },
+    "aggregate_AP": 28.173535327297397,
+    "configuration": "configs/yolo/s14_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_145.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s12_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 28.094421480381914,
+      "Swarm117": 24.909785152236964
+    },
+    "aggregate_AP": 26.502103316309437,
+    "configuration": "configs/yolo/s12_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_143.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s12_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.263114675828408,
+      "Swarm117": 26.248218878241087
+    },
+    "aggregate_AP": 28.755666777034747,
+    "configuration": "configs/yolo/s12_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_143.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s12_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.023183895796453,
+      "Swarm117": 26.088141030268368
+    },
+    "aggregate_AP": 28.555662463032412,
+    "configuration": "configs/yolo/s12_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_143.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s15_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.621998649178558,
+      "Swarm117": 26.26879141831924
+    },
+    "aggregate_AP": 28.9453950337489,
+    "configuration": "configs/yolo/s15_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_146.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s15_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.025607144334465,
+      "Swarm117": 27.619479436755324
+    },
+    "aggregate_AP": 30.322543290544893,
+    "configuration": "configs/yolo/s15_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_146.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s15_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 33.220632180398695,
+      "Swarm117": 27.419416869951828
+    },
+    "aggregate_AP": 30.320024525175263,
+    "configuration": "configs/yolo/s15_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_146.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s16_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.402461472647307,
+      "Swarm117": 26.829953418643203
+    },
+    "aggregate_AP": 29.116207445645255,
+    "configuration": "configs/yolo/s16_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_147.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s16_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 30.291869605574917,
+      "Swarm117": 25.232653426067884
+    },
+    "aggregate_AP": 27.7622615158214,
+    "configuration": "configs/yolo/s16_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_147.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s16_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.34484053646568,
+      "Swarm117": 25.9220377826731
+    },
+    "aggregate_AP": 29.13343915956939,
+    "configuration": "configs/yolo/s16_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_147.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s08_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.48030695898584,
+      "Swarm117": 25.69577806654781
+    },
+    "aggregate_AP": 28.588042512766826,
+    "configuration": "configs/yolo/s08_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_139.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s08_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.250293577185246,
+      "Swarm117": 28.300073240971468
+    },
+    "aggregate_AP": 30.27518340907836,
+    "configuration": "configs/yolo/s08_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_139.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s08_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.87952224264929,
+      "Swarm117": 26.107861778058744
+    },
+    "aggregate_AP": 29.493692010354017,
+    "configuration": "configs/yolo/s08_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_139.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s17_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.605750471598252,
+      "Swarm117": 25.210326256038794
+    },
+    "aggregate_AP": 28.408038363818523,
+    "configuration": "configs/yolo/s17_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_148.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s17_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.008881626261207,
+      "Swarm117": 24.887566997378332
+    },
+    "aggregate_AP": 27.94822431181977,
+    "configuration": "configs/yolo/s17_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_148.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s17_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.51564689857838,
+      "Swarm117": 26.139197958923067
+    },
+    "aggregate_AP": 28.827422428750722,
+    "configuration": "configs/yolo/s17_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_148.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s04_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.94541974709425,
+      "Swarm117": 26.022670987549258
+    },
+    "aggregate_AP": 28.484045367321755,
+    "configuration": "configs/yolo/s04_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_135.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s04_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.30783853765617,
+      "Swarm117": 26.413028418845723
+    },
+    "aggregate_AP": 29.860433478250947,
+    "configuration": "configs/yolo/s04_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_135.json",
+    "successful_updates": 5500,
+    "amp_skips": 2,
+    "attempted_updates": 5502,
+    "presentations": 88032,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s04_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.903208775052022,
+      "Swarm117": 26.467815418894507
+    },
+    "aggregate_AP": 29.185512096973262,
+    "configuration": "configs/yolo/s04_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_135.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s05_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.84401673128826,
+      "Swarm117": 25.314340479035106
+    },
+    "aggregate_AP": 28.079178605161683,
+    "configuration": "configs/yolo/s05_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_136.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s05_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.932861955579845,
+      "Swarm117": 25.94676870327058
+    },
+    "aggregate_AP": 29.439815329425212,
+    "configuration": "configs/yolo/s05_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_136.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s05_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 31.43609029602079,
+      "Swarm117": 24.87522592072769
+    },
+    "aggregate_AP": 28.15565810837424,
+    "configuration": "configs/yolo/s05_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_136.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s03_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 30.30623159677381,
+      "Swarm117": 26.377113579843947
+    },
+    "aggregate_AP": 28.341672588308878,
+    "configuration": "configs/yolo/s03_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_134.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s03_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 33.11003124786836,
+      "Swarm117": 25.52276945709313
+    },
+    "aggregate_AP": 29.31640035248075,
+    "configuration": "configs/yolo/s03_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_134.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s03_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 30.63459759978483,
+      "Swarm117": 26.160955930973927
+    },
+    "aggregate_AP": 28.397776765379376,
+    "configuration": "configs/yolo/s03_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_134.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s06_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 32.46959398077181,
+      "Swarm117": 24.763228530302023
+    },
+    "aggregate_AP": 28.616411255536917,
+    "configuration": "configs/yolo/s06_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_137.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s06_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 32.35994660662788,
+      "Swarm117": 24.138528139975886
+    },
+    "aggregate_AP": 28.24923737330188,
+    "configuration": "configs/yolo/s06_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_137.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s06_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.32118354877437,
+      "Swarm117": 26.262274443414107
+    },
+    "aggregate_AP": 29.29172899609424,
+    "configuration": "configs/yolo/s06_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_137.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s07_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.21819416944928,
+      "Swarm117": 26.815921299146172
+    },
+    "aggregate_AP": 29.017057734297726,
+    "configuration": "configs/yolo/s07_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_138.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s07_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 31.23275248148595,
+      "Swarm117": 25.91266483161557
+    },
+    "aggregate_AP": 28.57270865655076,
+    "configuration": "configs/yolo/s07_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_138.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s07_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 32.491235297836845,
+      "Swarm117": 26.710884682616808
+    },
+    "aggregate_AP": 29.601059990226826,
+    "configuration": "configs/yolo/s07_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_138.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s02_external_seed0",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 0,
+    "components_AP": {
+      "RealWeather130": 31.708838512470777,
+      "Swarm117": 24.539606230605337
+    },
+    "aggregate_AP": 28.124222371538057,
+    "configuration": "configs/yolo/s02_external_seed0.json",
+    "training_manifest": "data/loader_annotations/dataset_133.json",
+    "successful_updates": 5500,
+    "amp_skips": 3,
+    "attempted_updates": 5503,
+    "presentations": 88048,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s02_external_seed1",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 1,
+    "components_AP": {
+      "RealWeather130": 30.11868838565753,
+      "Swarm117": 25.073043219483747
+    },
+    "aggregate_AP": 27.59586580257064,
+    "configuration": "configs/yolo/s02_external_seed1.json",
+    "training_manifest": "data/loader_annotations/dataset_133.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  },
+  {
+    "model": "YOLO11m",
+    "run_id": "s02_external_seed2",
+    "protocol": "external",
+    "conditions": [
+      "rain",
+      "snow",
+      "fog",
+      "dust",
+      "low_light"
+    ],
+    "seed": 2,
+    "components_AP": {
+      "RealWeather130": 30.399693809315337,
+      "Swarm117": 26.740218247387208
+    },
+    "aggregate_AP": 28.56995602835127,
+    "configuration": "configs/yolo/s02_external_seed2.json",
+    "training_manifest": "data/loader_annotations/dataset_133.json",
+    "successful_updates": 5500,
+    "amp_skips": 4,
+    "attempted_updates": 5504,
+    "presentations": 88064,
+    "evaluation_weights": "final EMA"
+  }
+]

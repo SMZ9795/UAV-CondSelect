@@ -1,0 +1,632 @@
+[
+  {
+    "seed": 1,
+    "arm": "cleanx2",
+    "target": "rain",
+    "AP": 0.3261741368509679,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "cleanx2",
+    "target": "snow",
+    "AP": 0.31680043263133917,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "cleanx2",
+    "target": "fog",
+    "AP": 0.345224954660121,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "cleanx2",
+    "target": "dust",
+    "AP": 0.3285744751800515,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "rain",
+    "target": "rain",
+    "AP": 0.5878791183283959,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "rain",
+    "target": "snow",
+    "AP": 0.6219884354315903,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "rain",
+    "target": "fog",
+    "AP": 0.6871530307956305,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "rain",
+    "target": "dust",
+    "AP": 0.6636909478607896,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "snow",
+    "target": "rain",
+    "AP": 0.5667053117501458,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "snow",
+    "target": "snow",
+    "AP": 0.6563339043749082,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "snow",
+    "target": "fog",
+    "AP": 0.6722206358629529,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "snow",
+    "target": "dust",
+    "AP": 0.6636514806417912,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "fog",
+    "target": "rain",
+    "AP": 0.5352059122283856,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "fog",
+    "target": "snow",
+    "AP": 0.6456735981746711,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "fog",
+    "target": "fog",
+    "AP": 0.7019557030299026,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "fog",
+    "target": "dust",
+    "AP": 0.6881178662954653,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dust",
+    "target": "rain",
+    "AP": 0.5737697642887724,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dust",
+    "target": "snow",
+    "AP": 0.5943222042343675,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dust",
+    "target": "fog",
+    "AP": 0.6422672219020353,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dust",
+    "target": "dust",
+    "AP": 0.7049833381518754,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "cleanx2",
+    "target": "rain",
+    "AP": 0.41135755087481746,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "cleanx2",
+    "target": "snow",
+    "AP": 0.2978199184430908,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "cleanx2",
+    "target": "fog",
+    "AP": 0.3131652486691653,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "cleanx2",
+    "target": "dust",
+    "AP": 0.34313066174605067,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "rain",
+    "target": "rain",
+    "AP": 0.5795020143175043,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "rain",
+    "target": "snow",
+    "AP": 0.6026031501782468,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "rain",
+    "target": "fog",
+    "AP": 0.6626947757771987,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "rain",
+    "target": "dust",
+    "AP": 0.6050394618563802,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "snow",
+    "target": "rain",
+    "AP": 0.5825066006235878,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "snow",
+    "target": "snow",
+    "AP": 0.6515066630791655,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "snow",
+    "target": "fog",
+    "AP": 0.6640755455848315,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "snow",
+    "target": "dust",
+    "AP": 0.6646983048363333,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "fog",
+    "target": "rain",
+    "AP": 0.5684092164619609,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "fog",
+    "target": "snow",
+    "AP": 0.6214524563835027,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "fog",
+    "target": "fog",
+    "AP": 0.6995663347405311,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "fog",
+    "target": "dust",
+    "AP": 0.6649723963001848,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dust",
+    "target": "rain",
+    "AP": 0.5458784893315758,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dust",
+    "target": "snow",
+    "AP": 0.6092584529286131,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dust",
+    "target": "fog",
+    "AP": 0.6177309348330008,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dust",
+    "target": "dust",
+    "AP": 0.7162979375890945,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "cleanx2",
+    "target": "rain",
+    "AP": 0.3603153051729511,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "cleanx2",
+    "target": "snow",
+    "AP": 0.3430719042461229,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "cleanx2",
+    "target": "fog",
+    "AP": 0.35750656272019765,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "cleanx2",
+    "target": "dust",
+    "AP": 0.4034673002249601,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "rain",
+    "target": "rain",
+    "AP": 0.5569023359825862,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "rain",
+    "target": "snow",
+    "AP": 0.6029180418041804,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "rain",
+    "target": "fog",
+    "AP": 0.6460500473124234,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "rain",
+    "target": "dust",
+    "AP": 0.6279259945699003,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "snow",
+    "target": "rain",
+    "AP": 0.5953931208471781,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "snow",
+    "target": "snow",
+    "AP": 0.6816215283762725,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "snow",
+    "target": "fog",
+    "AP": 0.71618437821293,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "snow",
+    "target": "dust",
+    "AP": 0.6680234845101866,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "fog",
+    "target": "rain",
+    "AP": 0.575982884455165,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "fog",
+    "target": "snow",
+    "AP": 0.6681671723273533,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "fog",
+    "target": "fog",
+    "AP": 0.729450982471091,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "fog",
+    "target": "dust",
+    "AP": 0.6378796629662966,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dust",
+    "target": "rain",
+    "AP": 0.5963586374020513,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dust",
+    "target": "snow",
+    "AP": 0.6453133527638477,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dust",
+    "target": "fog",
+    "AP": 0.6859205776750914,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dust",
+    "target": "dust",
+    "AP": 0.7049772947219535,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "cleanx2",
+    "target": "dim_low_light",
+    "AP": 0.4219336208815037,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "rain",
+    "target": "dim_low_light",
+    "AP": 0.6341308478853593,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "snow",
+    "target": "dim_low_light",
+    "AP": 0.6231292367994733,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "fog",
+    "target": "dim_low_light",
+    "AP": 0.5830383902634902,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dust",
+    "target": "dim_low_light",
+    "AP": 0.588290787384616,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dim_low_light",
+    "target": "rain",
+    "AP": 0.5222145648073507,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dim_low_light",
+    "target": "snow",
+    "AP": 0.5155542801485323,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dim_low_light",
+    "target": "fog",
+    "AP": 0.5405331893848383,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dim_low_light",
+    "target": "dust",
+    "AP": 0.6184574208143196,
+    "units": "0-1"
+  },
+  {
+    "seed": 1,
+    "arm": "dim_low_light",
+    "target": "dim_low_light",
+    "AP": 0.6755525571864575,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "cleanx2",
+    "target": "dim_low_light",
+    "AP": 0.421851962302362,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "rain",
+    "target": "dim_low_light",
+    "AP": 0.6344372003423667,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "snow",
+    "target": "dim_low_light",
+    "AP": 0.6149209592596521,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "fog",
+    "target": "dim_low_light",
+    "AP": 0.5682182468720592,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dust",
+    "target": "dim_low_light",
+    "AP": 0.5805067651921519,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dim_low_light",
+    "target": "rain",
+    "AP": 0.49551047308541396,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dim_low_light",
+    "target": "snow",
+    "AP": 0.49616533744235497,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dim_low_light",
+    "target": "fog",
+    "AP": 0.5814463106776834,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dim_low_light",
+    "target": "dust",
+    "AP": 0.6483585018165682,
+    "units": "0-1"
+  },
+  {
+    "seed": 2,
+    "arm": "dim_low_light",
+    "target": "dim_low_light",
+    "AP": 0.697493572726838,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "cleanx2",
+    "target": "dim_low_light",
+    "AP": 0.4454095723765619,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "rain",
+    "target": "dim_low_light",
+    "AP": 0.6350168335707679,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "snow",
+    "target": "dim_low_light",
+    "AP": 0.6347794353611186,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "fog",
+    "target": "dim_low_light",
+    "AP": 0.5761974862899824,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dust",
+    "target": "dim_low_light",
+    "AP": 0.5926830914409272,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dim_low_light",
+    "target": "rain",
+    "AP": 0.5080316226393498,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dim_low_light",
+    "target": "snow",
+    "AP": 0.49694671532728185,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dim_low_light",
+    "target": "fog",
+    "AP": 0.5474902012833234,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dim_low_light",
+    "target": "dust",
+    "AP": 0.6455363393482205,
+    "units": "0-1"
+  },
+  {
+    "seed": 3,
+    "arm": "dim_low_light",
+    "target": "dim_low_light",
+    "AP": 0.7173302590774424,
+    "units": "0-1"
+  }
+]

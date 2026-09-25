@@ -1,0 +1,29 @@
+{
+  "model": "black-forest-labs/FLUX.2-klein-base-9B",
+  "revision": "32773329fbe7e81a90ef971740e8ba4b0364ecf3",
+  "preparation_size": [
+    1024,
+    576
+  ],
+  "mask_threshold": 127,
+  "mask_blur_radius": 28,
+  "source_blur_radius": 60,
+  "extra_dilation": 0,
+  "JPEG_quality": 95,
+  "input_resize": "Lanczos",
+  "image_size": [
+    512,
+    288
+  ],
+  "mask_resize": "NEAREST",
+  "dtype": "bfloat16",
+  "steps": 28,
+  "guidance_scale": 3.0,
+  "seed": 43,
+  "text_encoder_out_layers": [
+    9,
+    18,
+    27
+  ],
+  "learned_adapter": false
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "configuration": "full_p4of9",
+    "seed": 0,
+    "components_AP": {
+      "Swarm117": 27.21490807224636,
+      "low-light99": 41.38794508098177,
+      "snow31": 7.759932601715771,
+      "weather130": 36.861732809971585
+    },
+    "aggregate_AP": 32.03832044110897,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.4448076282478348,
+      "counts": {
+        "clean": 53334,
+        "rain": 8510,
+        "snow": 8579,
+        "fog": 8531,
+        "dust": 8531,
+        "dim_low_light": 8579
+      },
+      "clean_subpool_counts": {
+        "base146": 10665,
+        "clean584": 42669
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "fog": 146,
+        "dust": 146,
+        "dim_low_light": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 47,
+      "max_entry_exposures": 74
+    }
+  },
+  {
+    "configuration": "full_p4of9",
+    "seed": 1,
+    "components_AP": {
+      "Swarm117": 34.92833414461382,
+      "low-light99": 42.50929393057719,
+      "snow31": 13.454947732546499,
+      "weather130": 37.486375608017724
+    },
+    "aggregate_AP": 36.207354876315776,
+    "sampling_counts": {
+      "total_consumed": 96048,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.4443195069132101,
+      "counts": {
+        "clean": 53372,
+        "dust": 8566,
+        "snow": 8536,
+        "fog": 8602,
+        "rain": 8484,
+        "dim_low_light": 8488
+      },
+      "clean_subpool_counts": {
+        "base146": 10674,
+        "clean584": 42698
+      },
+      "source_coverage": {
+        "clean": 730,
+        "dust": 146,
+        "snow": 146,
+        "fog": 146,
+        "rain": 146,
+        "dim_low_light": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 47,
+      "max_entry_exposures": 74
+    }
+  },
+  {
+    "configuration": "full_p4of9",
+    "seed": 2,
+    "components_AP": {
+      "Swarm117": 32.13668726214083,
+      "low-light99": 41.762480224135714,
+      "snow31": 12.696820314535085,
+      "weather130": 37.42033166951491
+    },
+    "aggregate_AP": 34.77850946582787,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.4456091772151899,
+      "counts": {
+        "clean": 53257,
+        "rain": 8523,
+        "snow": 8579,
+        "dim_low_light": 8554,
+        "fog": 8566,
+        "dust": 8585
+      },
+      "clean_subpool_counts": {
+        "clean584": 42611,
+        "base146": 10646
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "dim_low_light": 146,
+        "fog": 146,
+        "dust": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 48,
+      "max_entry_exposures": 73
+    }
+  },
+  {
+    "configuration": "full_p0375",
+    "seed": 0,
+    "components_AP": {
+      "Swarm117": 23.177502168935348,
+      "low-light99": 42.71950510844317,
+      "snow31": 20.058486898831475,
+      "weather130": 39.28550910904752
+    },
+    "aggregate_AP": 31.231505638991433,
+    "sampling_counts": {
+      "total_consumed": 96080,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.3761552872606162,
+      "counts": {
+        "clean": 59939,
+        "rain": 7181,
+        "snow": 7257,
+        "dust": 7222,
+        "dim_low_light": 7264,
+        "fog": 7217
+      },
+      "clean_subpool_counts": {
+        "base146": 11989,
+        "clean584": 47950
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "dust": 146,
+        "dim_low_light": 146,
+        "fog": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 36,
+      "max_entry_exposures": 83
+    }
+  },
+  {
+    "configuration": "full_p0375",
+    "seed": 1,
+    "components_AP": {
+      "Swarm117": 35.43115384143445,
+      "low-light99": 42.70337909651501,
+      "snow31": 15.833733852316229,
+      "weather130": 38.72050766000258
+    },
+    "aggregate_AP": 37.07583075071852,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.37472934710193206,
+      "counts": {
+        "clean": 60066,
+        "dust": 7212,
+        "snow": 7164,
+        "fog": 7273,
+        "rain": 7176,
+        "dim_low_light": 7173
+      },
+      "clean_subpool_counts": {
+        "base146": 12021,
+        "clean584": 48045
+      },
+      "source_coverage": {
+        "clean": 730,
+        "dust": 146,
+        "snow": 146,
+        "fog": 146,
+        "rain": 146,
+        "dim_low_light": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 31,
+      "max_entry_exposures": 83
+    }
+  },
+  {
+    "configuration": "full_p0375",
+    "seed": 2,
+    "components_AP": {
+      "Swarm117": 23.273407144782208,
+      "low-light99": 39.8287046539055,
+      "snow31": 17.927780121793823,
+      "weather130": 36.73913365505007
+    },
+    "aggregate_AP": 30.00627039991614,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.37488549300466356,
+      "counts": {
+        "clean": 60051,
+        "rain": 7250,
+        "snow": 7201,
+        "dim_low_light": 7162,
+        "fog": 7202,
+        "dust": 7198
+      },
+      "clean_subpool_counts": {
+        "clean584": 48037,
+        "base146": 12014
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "dim_low_light": 146,
+        "fog": 146,
+        "dust": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 34,
+      "max_entry_exposures": 83
+    }
+  },
+  {
+    "configuration": "full_p2of7",
+    "seed": 0,
+    "components_AP": {
+      "Swarm117": 26.60751394371159,
+      "low-light99": 41.63921878939995,
+      "snow31": 20.741671461961147,
+      "weather130": 38.52421948258273
+    },
+    "aggregate_AP": 32.56586671314716,
+    "sampling_counts": {
+      "total_consumed": 96080,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.2865424646128226,
+      "counts": {
+        "clean": 68549,
+        "rain": 5488,
+        "snow": 5544,
+        "dust": 5536,
+        "dim_low_light": 5486,
+        "fog": 5477
+      },
+      "clean_subpool_counts": {
+        "base146": 13708,
+        "clean584": 54841
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "dust": 146,
+        "dim_low_light": 146,
+        "fog": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 20,
+      "max_entry_exposures": 94
+    }
+  },
+  {
+    "configuration": "full_p2of7",
+    "seed": 1,
+    "components_AP": {
+      "Swarm117": 33.243774881033936,
+      "low-light99": 41.95243096533664,
+      "snow31": 16.972574837062915,
+      "weather130": 38.30832043488247
+    },
+    "aggregate_AP": 35.7760476579582,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.28458111259160557,
+      "counts": {
+        "clean": 68726,
+        "dust": 5509,
+        "fog": 5526,
+        "rain": 5500,
+        "snow": 5377,
+        "dim_low_light": 5426
+      },
+      "clean_subpool_counts": {
+        "base146": 13745,
+        "clean584": 54981
+      },
+      "source_coverage": {
+        "clean": 730,
+        "dust": 146,
+        "fog": 146,
+        "rain": 146,
+        "snow": 146,
+        "dim_low_light": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 24,
+      "max_entry_exposures": 95
+    }
+  },
+  {
+    "configuration": "full_p2of7",
+    "seed": 2,
+    "components_AP": {
+      "Swarm117": 30.482313264067844,
+      "low-light99": 42.121836152604274,
+      "snow31": 18.614080026115094,
+      "weather130": 39.12258555454856
+    },
+    "aggregate_AP": 34.8024494093082,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.2853722518321119,
+      "counts": {
+        "clean": 68650,
+        "rain": 5514,
+        "snow": 5497,
+        "dim_low_light": 5460,
+        "dust": 5452,
+        "fog": 5491
+      },
+      "clean_subpool_counts": {
+        "clean584": 54919,
+        "base146": 13731
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "snow": 146,
+        "dim_low_light": 146,
+        "dust": 146,
+        "fog": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 25,
+      "max_entry_exposures": 95
+    }
+  },
+  {
+    "configuration": "full_p1of6",
+    "seed": 0,
+    "components_AP": {
+      "Swarm117": 24.330690947784532,
+      "low-light99": 43.04088824788544,
+      "snow31": 27.609138254222987,
+      "weather130": 40.91386775381921
+    },
+    "aggregate_AP": 32.622279350801875,
+    "sampling_counts": {
+      "total_consumed": 96080,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.1674854288093256,
+      "counts": {
+        "clean": 79988,
+        "rain": 3270,
+        "dust": 3177,
+        "dim_low_light": 3199,
+        "fog": 3192,
+        "snow": 3254
+      },
+      "clean_subpool_counts": {
+        "base146": 15992,
+        "clean584": 63996
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "dust": 146,
+        "dim_low_light": 146,
+        "fog": 146,
+        "snow": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 12,
+      "max_entry_exposures": 110
+    }
+  },
+  {
+    "configuration": "full_p1of6",
+    "seed": 1,
+    "components_AP": {
+      "Swarm117": 25.755197566859355,
+      "low-light99": 41.90037808445445,
+      "snow31": 14.292047447019348,
+      "weather130": 38.76402633173215
+    },
+    "aggregate_AP": 32.25961194929575,
+    "sampling_counts": {
+      "total_consumed": 96064,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.16479638574283806,
+      "counts": {
+        "clean": 80233,
+        "dust": 3179,
+        "rain": 3134,
+        "fog": 3219,
+        "snow": 3138,
+        "dim_low_light": 3161
+      },
+      "clean_subpool_counts": {
+        "base146": 16051,
+        "clean584": 64182
+      },
+      "source_coverage": {
+        "clean": 730,
+        "dust": 146,
+        "rain": 146,
+        "fog": 146,
+        "snow": 146,
+        "dim_low_light": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 11,
+      "max_entry_exposures": 110
+    }
+  },
+  {
+    "configuration": "full_p1of6",
+    "seed": 2,
+    "components_AP": {
+      "Swarm117": 32.236176695644595,
+      "low-light99": 40.24961463110216,
+      "snow31": 9.265264333305172,
+      "weather130": 36.4769582550241
+    },
+    "aggregate_AP": 34.356567475334344,
+    "sampling_counts": {
+      "total_consumed": 96080,
+      "including_amp_skipped_attempts": true,
+      "p_gen_realized": 0.16668401332223148,
+      "counts": {
+        "clean": 80065,
+        "rain": 3254,
+        "dim_low_light": 3215,
+        "dust": 3068,
+        "snow": 3213,
+        "fog": 3265
+      },
+      "clean_subpool_counts": {
+        "clean584": 64054,
+        "base146": 16011
+      },
+      "source_coverage": {
+        "clean": 730,
+        "rain": 146,
+        "dim_low_light": 146,
+        "dust": 146,
+        "snow": 146,
+        "fog": 146
+      },
+      "all_entries_covered": true,
+      "min_entry_exposures": 9,
+      "max_entry_exposures": 110
+    }
+  }
+]

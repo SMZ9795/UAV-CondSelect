@@ -1,0 +1,585 @@
+{
+  "annotations": [
+    {
+      "area": 4744.9600176,
+      "bbox": [
+        234.4,
+        57.866667,
+        89.866667,
+        52.8
+      ],
+      "category_id": 1,
+      "id": 10120001,
+      "image_id": 1012,
+      "iscrowd": 0
+    },
+    {
+      "area": 4601.1733504,
+      "bbox": [
+        310.933333,
+        66.666667,
+        89.866667,
+        51.2
+      ],
+      "category_id": 1,
+      "id": 10720001,
+      "image_id": 1072,
+      "iscrowd": 0
+    },
+    {
+      "area": 8110.719981600001,
+      "bbox": [
+        472.266667,
+        206.4,
+        146.933333,
+        55.2
+      ],
+      "category_id": 1,
+      "id": 11520001,
+      "image_id": 1152,
+      "iscrowd": 0
+    },
+    {
+      "area": 7287.8933168,
+      "bbox": [
+        104.0,
+        227.733333,
+        146.933333,
+        49.6
+      ],
+      "category_id": 1,
+      "id": 11720001,
+      "image_id": 1172,
+      "iscrowd": 0
+    },
+    {
+      "area": 3009.351064888889,
+      "bbox": [
+        334.4,
+        275.733333,
+        111.733333,
+        26.933333
+      ],
+      "category_id": 1,
+      "id": 12520001,
+      "image_id": 1252,
+      "iscrowd": 0
+    },
+    {
+      "area": 5189.33338,
+      "bbox": [
+        318.666667,
+        236.533333,
+        140.0,
+        37.066667
+      ],
+      "category_id": 1,
+      "id": 12620001,
+      "image_id": 1262,
+      "iscrowd": 0
+    },
+    {
+      "area": 1883.0933576,
+      "bbox": [
+        385.6,
+        157.333333,
+        72.8,
+        25.866667
+      ],
+      "category_id": 1,
+      "id": 18320001,
+      "image_id": 1832,
+      "iscrowd": 0
+    },
+    {
+      "area": 1523.200008,
+      "bbox": [
+        612.533333,
+        83.466667,
+        63.466667,
+        24.0
+      ],
+      "category_id": 1,
+      "id": 19020001,
+      "image_id": 1902,
+      "iscrowd": 0
+    },
+    {
+      "area": 1035.377752088889,
+      "bbox": [
+        612.266667,
+        48.533333,
+        59.733333,
+        17.333333
+      ],
+      "category_id": 1,
+      "id": 20520001,
+      "image_id": 2052,
+      "iscrowd": 0
+    },
+    {
+      "area": 3297.848911111111,
+      "bbox": [
+        319.2,
+        374.4,
+        99.733333,
+        33.066667
+      ],
+      "category_id": 1,
+      "id": 25120001,
+      "image_id": 2512,
+      "iscrowd": 0
+    },
+    {
+      "area": 3832.9599576,
+      "bbox": [
+        552.8,
+        332.266667,
+        127.2,
+        30.133333
+      ],
+      "category_id": 1,
+      "id": 25220001,
+      "image_id": 2522,
+      "iscrowd": 0
+    },
+    {
+      "area": 8049.9199848,
+      "bbox": [
+        345.333333,
+        289.066667,
+        176.533333,
+        45.6
+      ],
+      "category_id": 1,
+      "id": 25520001,
+      "image_id": 2552,
+      "iscrowd": 0
+    },
+    {
+      "area": 3181.795532711111,
+      "bbox": [
+        258.666667,
+        139.2,
+        100.266667,
+        31.733333
+      ],
+      "category_id": 1,
+      "id": 38220001,
+      "image_id": 3822,
+      "iscrowd": 0
+    },
+    {
+      "area": 1848.177808088889,
+      "bbox": [
+        959.2,
+        117.866667,
+        60.266667,
+        30.666667
+      ],
+      "category_id": 1,
+      "id": 46420001,
+      "image_id": 4642,
+      "iscrowd": 0
+    },
+    {
+      "area": 741.1200048000001,
+      "bbox": [
+        498.666667,
+        167.466667,
+        51.466667,
+        14.4
+      ],
+      "category_id": 1,
+      "id": 46820001,
+      "image_id": 4682,
+      "iscrowd": 0
+    },
+    {
+      "area": 678.399984,
+      "bbox": [
+        535.2,
+        177.6,
+        48.0,
+        14.133333
+      ],
+      "category_id": 1,
+      "id": 47620001,
+      "image_id": 4762,
+      "iscrowd": 0
+    },
+    {
+      "area": 1297.422211911111,
+      "bbox": [
+        148.0,
+        171.2,
+        54.666667,
+        23.733333
+      ],
+      "category_id": 1,
+      "id": 47720001,
+      "image_id": 4772,
+      "iscrowd": 0
+    },
+    {
+      "area": 3174.4,
+      "bbox": [
+        208.533333,
+        279.466667,
+        99.2,
+        32.0
+      ],
+      "category_id": 1,
+      "id": 54920001,
+      "image_id": 5492,
+      "iscrowd": 0
+    },
+    {
+      "area": 3504.3555847111106,
+      "bbox": [
+        210.933333,
+        268.266667,
+        117.333333,
+        29.866667
+      ],
+      "category_id": 1,
+      "id": 59420001,
+      "image_id": 5942,
+      "iscrowd": 0
+    },
+    {
+      "area": 3666.9155839111113,
+      "bbox": [
+        190.133333,
+        273.066667,
+        116.533333,
+        31.466667
+      ],
+      "category_id": 1,
+      "id": 61620001,
+      "image_id": 6162,
+      "iscrowd": 0
+    },
+    {
+      "area": 4197.262253511111,
+      "bbox": [
+        185.866667,
+        267.733333,
+        126.933333,
+        33.066667
+      ],
+      "category_id": 1,
+      "id": 65920001,
+      "image_id": 6592,
+      "iscrowd": 0
+    },
+    {
+      "area": 2841.6000096000002,
+      "bbox": [
+        225.333333,
+        276.266667,
+        98.666667,
+        28.8
+      ],
+      "category_id": 1,
+      "id": 66820001,
+      "image_id": 6682,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "UAV",
+      "supercategory": "aircraft"
+    }
+  ],
+  "images": [
+    {
+      "base_source_identity": "A_0106590",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106590.png",
+      "height": 576,
+      "id": 1012,
+      "original_external_image_id": 884,
+      "sample_id": "base146:A_0106590:snow",
+      "source_namespace": "A_0106590",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "A_0106616",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106616.png",
+      "height": 576,
+      "id": 1072,
+      "original_external_image_id": 889,
+      "sample_id": "base146:A_0106616:snow",
+      "source_namespace": "A_0106616",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "A_0106840",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106840.png",
+      "height": 576,
+      "id": 1152,
+      "original_external_image_id": 897,
+      "sample_id": "base146:A_0106840:snow",
+      "source_namespace": "A_0106840",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "A_0106846",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106846.png",
+      "height": 576,
+      "id": 1172,
+      "original_external_image_id": 899,
+      "sample_id": "base146:A_0106846:snow",
+      "source_namespace": "A_0106846",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "A_0106863",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106863.png",
+      "height": 576,
+      "id": 1252,
+      "original_external_image_id": 907,
+      "sample_id": "base146:A_0106863:snow",
+      "source_namespace": "A_0106863",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "A_0106864",
+      "domain": "generated",
+      "file_name": "inputs/group_011/A_0106864.png",
+      "height": 576,
+      "id": 1262,
+      "original_external_image_id": 908,
+      "sample_id": "base146:A_0106864:snow",
+      "source_namespace": "A_0106864",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0101970",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0101970.png",
+      "height": 576,
+      "id": 1832,
+      "original_external_image_id": 915,
+      "sample_id": "base146:E_0101970:snow",
+      "source_namespace": "E_0101970",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0101996",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0101996.png",
+      "height": 576,
+      "id": 1902,
+      "original_external_image_id": 922,
+      "sample_id": "base146:E_0101996:snow",
+      "source_namespace": "E_0101996",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0102038",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0102038.png",
+      "height": 576,
+      "id": 2052,
+      "original_external_image_id": 931,
+      "sample_id": "base146:E_0102038:snow",
+      "source_namespace": "E_0102038",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0104939",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0104939.png",
+      "height": 576,
+      "id": 2512,
+      "original_external_image_id": 944,
+      "sample_id": "base146:E_0104939:snow",
+      "source_namespace": "E_0104939",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0104940",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0104940.png",
+      "height": 576,
+      "id": 2522,
+      "original_external_image_id": 945,
+      "sample_id": "base146:E_0104940:snow",
+      "source_namespace": "E_0104940",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "E_0104961",
+      "domain": "generated",
+      "file_name": "inputs/group_011/E_0104961.png",
+      "height": 576,
+      "id": 2552,
+      "original_external_image_id": 948,
+      "sample_id": "base146:E_0104961:snow",
+      "source_namespace": "E_0104961",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "F_0102936",
+      "domain": "generated",
+      "file_name": "inputs/group_011/F_0102936.png",
+      "height": 576,
+      "id": 3822,
+      "original_external_image_id": 961,
+      "sample_id": "base146:F_0102936:snow",
+      "source_namespace": "F_0102936",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "F_0201499",
+      "domain": "generated",
+      "file_name": "inputs/group_011/F_0201499.png",
+      "height": 576,
+      "id": 4642,
+      "original_external_image_id": 973,
+      "sample_id": "base146:F_0201499:snow",
+      "source_namespace": "F_0201499",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "F_0201506",
+      "domain": "generated",
+      "file_name": "inputs/group_011/F_0201506.png",
+      "height": 576,
+      "id": 4682,
+      "original_external_image_id": 974,
+      "sample_id": "base146:F_0201506:snow",
+      "source_namespace": "F_0201506",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "F_0201526",
+      "domain": "generated",
+      "file_name": "inputs/group_011/F_0201526.png",
+      "height": 576,
+      "id": 4762,
+      "original_external_image_id": 978,
+      "sample_id": "base146:F_0201526:snow",
+      "source_namespace": "F_0201526",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "F_0201528",
+      "domain": "generated",
+      "file_name": "inputs/group_011/F_0201528.png",
+      "height": 576,
+      "id": 4772,
+      "original_external_image_id": 979,
+      "sample_id": "base146:F_0201528:snow",
+      "source_namespace": "F_0201528",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "H_0103705",
+      "domain": "generated",
+      "file_name": "inputs/group_011/H_0103705.png",
+      "height": 576,
+      "id": 5492,
+      "original_external_image_id": 986,
+      "sample_id": "base146:H_0103705:snow",
+      "source_namespace": "H_0103705",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "H_0103774",
+      "domain": "generated",
+      "file_name": "inputs/group_011/H_0103774.png",
+      "height": 576,
+      "id": 5942,
+      "original_external_image_id": 994,
+      "sample_id": "base146:H_0103774:snow",
+      "source_namespace": "H_0103774",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "H_0103804",
+      "domain": "generated",
+      "file_name": "inputs/group_011/H_0103804.png",
+      "height": 576,
+      "id": 6162,
+      "original_external_image_id": 998,
+      "sample_id": "base146:H_0103804:snow",
+      "source_namespace": "H_0103804",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "H_0103862",
+      "domain": "generated",
+      "file_name": "inputs/group_011/H_0103862.png",
+      "height": 576,
+      "id": 6592,
+      "original_external_image_id": 1013,
+      "sample_id": "base146:H_0103862:snow",
+      "source_namespace": "H_0103862",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    },
+    {
+      "base_source_identity": "H_0103873",
+      "domain": "generated",
+      "file_name": "inputs/group_011/H_0103873.png",
+      "height": 576,
+      "id": 6682,
+      "original_external_image_id": 1017,
+      "sample_id": "base146:H_0103873:snow",
+      "source_namespace": "H_0103873",
+      "split": "validation",
+      "task": "snow",
+      "width": 1024
+    }
+  ]
+}

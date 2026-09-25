@@ -1,0 +1,136 @@
+{
+  "input_size": 960,
+  "classes": {
+    "1": 0
+  },
+  "nc": 1,
+  "successful_updates": 5500,
+  "physical_batch": 16,
+  "accumulation": 1,
+  "effective_batch": 16,
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0001,
+  "groups": "decay ordinary weights; no decay normalization parameters or biases; no backbone LR multiplier; no automatic batch scaling",
+  "warmup_updates": 300,
+  "clip_grad_norm": 10.0,
+  "scheduler": "300 linear warmup then cosine to .01 at9000; successful updates; fixed prefix",
+  "loss": {
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "reduction": "native YOLO batch-scaled loss vector sum; sum across accumulation microbatches without additional division"
+  },
+  "amp": true,
+  "amp_dtype": "float16",
+  "initial_scale": 1024,
+  "ema_decay": 0.9999,
+  "ema_tau": 2000,
+  "validation_interval": 0,
+  "early_stopping": false,
+  "checkpoint_interval": 250,
+  "preprocessing": "RGB PIL bilinear direct 960x960 stretch; float32 /255; no normalization, no padding, no letterbox",
+  "augmentations": {
+    "mosaic": 0,
+    "mixup": 0,
+    "cutmix": 0,
+    "copy_paste": 0,
+    "hsv_h": 0,
+    "hsv_s": 0,
+    "hsv_v": 0,
+    "degrees": 0,
+    "translate": 0,
+    "scale": 0,
+    "shear": 0,
+    "perspective": 0,
+    "flipud": 0,
+    "fliplr": 0,
+    "bgr": 0,
+    "erasing": 0,
+    "auto_augment": null,
+    "multi_scale": false,
+    "rect": false
+  },
+  "cache": false,
+  "workers": 4,
+  "prefetch_factor": 2,
+  "sampler": "same stateless uniform repeating permutations as current RT-DETR reference; consumed full microbatch cursor; deterministic transforms",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "deterministic_algorithms": true
+  },
+  "storage": {
+    "image_disk_cache": false,
+    "persist_spatial_features": false,
+    "minimum_free_bytes": 8355053568,
+    "minimum_free_inodes": 10000
+  },
+  "schedule_horizon": 9000,
+  "final_lr_factor": 0.01,
+  "evaluation": {
+    "dtype": "float32",
+    "confidence": 0.0,
+    "nms_iou": 0.7,
+    "max_det": 300,
+    "max_nms": 30000,
+    "coco_max_dets": [
+      1,
+      10,
+      100
+    ],
+    "primary": "arithmetic mean of clean and all five domain APs; percentage points"
+  },
+  "checkpoint_selection": "Final EMA at exactly 5500 successful optimizer updates; no best-validation selection",
+  "optimizer_implementation": {
+    "foreach": false,
+    "fused": false,
+    "amsgrad": false,
+    "maximize": false,
+    "capturable": false,
+    "differentiable": false
+  },
+  "amp_scaler": {
+    "initial_scale": 1024,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "overflow": "No successful-update increment on skipped optimizer step; preserve installed scaler behavior",
+    "nonfinite_forward": "Hold affected job; do not skip/relabel failed batch"
+  },
+  "ciou_precision": "Regression CIoU geometric arithmetic FP32, both boxes explicitly cast, autocast disabled only for geometry; native autograd/formula/alpha stop-gradient unchanged; all other loss and assignment settings unchanged",
+  "seed": 0,
+  "fit_id": "reference_seed0",
+  "protocol": "clean409_response",
+  "training_manifest": "${ANNOTATION_ROOT}/dataset_164.json",
+  "validation_manifest": null,
+  "feature": {
+    "hook": "model.19.m.0.m.0.cv2",
+    "hook_output": "output",
+    "stride": 16,
+    "expected_shape": [
+      128,
+      60,
+      60
+    ],
+    "input_size": [
+      960,
+      960
+    ],
+    "inference_dtype": "float32",
+    "pool_dtype": "float32",
+    "aggregation_dtype": "float64",
+    "region": "global_background",
+    "mask_threshold": 0,
+    "mask_resize": "nearest",
+    "dilation_kernel": 9,
+    "weight_resize": "area",
+    "epsilon": 1e-12
+  }
+}

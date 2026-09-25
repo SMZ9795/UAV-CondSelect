@@ -1,0 +1,102 @@
+{
+  "protocol": "YOLO11m_downstream",
+  "seed": 0,
+  "input_size": 960,
+  "classes": {
+    "1": 0
+  },
+  "nc": 1,
+  "training_manifest": "${ANNOTATION_ROOT}/dataset_140.json",
+  "validation_manifest": "${ANNOTATION_ROOT}/dataset_016.json",
+  "successful_updates": 5500,
+  "physical_batch": 16,
+  "accumulation": 1,
+  "effective_batch": 16,
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0001,
+  "groups": "decay ordinary weights; no decay normalization parameters or biases; no backbone LR multiplier; no automatic batch scaling",
+  "warmup_updates": 300,
+  "clip_grad_norm": 10.0,
+  "scheduler": "300 linear warmup then cosine to .01 at9000; successful updates; fixed prefix",
+  "loss": {
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "reduction": "native YOLO batch-scaled loss vector sum; sum across accumulation microbatches without additional division"
+  },
+  "amp": true,
+  "amp_dtype": "float16",
+  "initial_scale": 1024,
+  "ema_decay": 0.9999,
+  "ema_tau": 2000,
+  "checkpoint_selection": "final EMA5500",
+  "validation_interval": 500,
+  "early_stopping": false,
+  "checkpoint_interval": 250,
+  "preprocessing": "RGB PIL bilinear direct 960x960 stretch; float32 /255; no normalization, no padding, no letterbox",
+  "augmentations": {
+    "mosaic": 0,
+    "mixup": 0,
+    "cutmix": 0,
+    "copy_paste": 0,
+    "hsv_h": 0,
+    "hsv_s": 0,
+    "hsv_v": 0,
+    "degrees": 0,
+    "translate": 0,
+    "scale": 0,
+    "shear": 0,
+    "perspective": 0,
+    "flipud": 0,
+    "fliplr": 0,
+    "bgr": 0,
+    "erasing": 0,
+    "auto_augment": null,
+    "multi_scale": false,
+    "rect": false
+  },
+  "cache": false,
+  "workers": 4,
+  "prefetch_factor": 2,
+  "sampler": "same stateless uniform repeating permutations as current RT-DETR reference; consumed full microbatch cursor; deterministic transforms",
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32": false,
+    "deterministic_algorithms": true
+  },
+  "storage": {
+    "image_disk_cache": false,
+    "persist_spatial_features": false,
+    "minimum_free_bytes": 5368709120,
+    "minimum_free_inodes": 10000
+  },
+  "schedule_horizon": 9000,
+  "final_lr_factor": 0.01,
+  "evaluation": {
+    "dtype": "float32",
+    "confidence": 0.0,
+    "nms_iou": 0.7,
+    "max_det": 300,
+    "max_nms": 30000,
+    "coco_max_dets": [
+      1,
+      10,
+      100
+    ],
+    "primary": "equal-weight mean of pooled-real and synthetic test APs; percentage points"
+  },
+  "fit_id": "s09_external_seed0",
+  "evaluation_protocol": "external",
+  "subset": [
+    "rain",
+    "snow",
+    "dust"
+  ]
+}

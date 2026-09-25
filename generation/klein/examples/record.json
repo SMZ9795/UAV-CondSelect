@@ -1,0 +1,10 @@
+{
+  "source_id": "A_0106590",
+  "condition": "dust",
+  "files": {
+    "source": "source.jpg",
+    "input": "input.jpg",
+    "background": "background.png",
+    "final": "final.png"
+  }
+}
